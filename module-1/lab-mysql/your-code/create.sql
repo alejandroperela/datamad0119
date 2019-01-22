@@ -19,7 +19,7 @@ USE `mydb` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`customers` (
   `idCustomers` INT NOT NULL AUTO_INCREMENT,
-  `CustomerID` VARCHAR(45) NOT NULL,
+  `CustomerID` INT NOT NULL,
   `Name` VARCHAR(45) NULL,
   `Phone` VARCHAR(200) NULL,
   `Email` VARCHAR(45) NULL,
@@ -49,7 +49,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `mydb`.`Invoices` (
   `idInvoices` INT NOT NULL AUTO_INCREMENT,
   `Number` INT NOT NULL,
-  `Date` DATETIME NULL,
+  `Date` DATE NULL,
   `Car` INT NULL,
   `Customer` INT NULL,
   `Salesperson_idSalesperson` INT NOT NULL,
