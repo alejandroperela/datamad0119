@@ -15,18 +15,6 @@ CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
 USE `mydb` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`Salesperson`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Salesperson` (
-  `idSalesperson` INT NOT NULL AUTO_INCREMENT,
-  `StaffID` INT NOT NULL,
-  `Name` VARCHAR(45) NULL,
-  `Store` VARCHAR(45) NULL,
-  PRIMARY KEY (`idSalesperson`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
 -- Table `mydb`.`customers`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`customers` (
@@ -44,6 +32,17 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
+-- Table `mydb`.`Salesperson`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`Salesperson` (
+  `StaffID` INT NOT NULL AUTO_INCREMENT,
+  `Name` VARCHAR(45) NULL,
+  `Store` VARCHAR(45) NULL,
+  PRIMARY KEY (`StaffID`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
 -- Table `mydb`.`Invoices`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`Invoices` (
@@ -54,17 +53,18 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Invoices` (
   `Customer` VARCHAR(45) NULL,
   `Salesperson_idSalesperson` INT NOT NULL,
   `Customers_idCustomers` INT NOT NULL,
+  `Salesperson_StaffID` INT NOT NULL,
   PRIMARY KEY (`idInvoices`),
-  INDEX `fk_Invoices_Salesperson1_idx` (`Salesperson_idSalesperson` ASC),
   INDEX `fk_Invoices_Customers1_idx` (`Customers_idCustomers` ASC),
-  CONSTRAINT `fk_Invoices_Salesperson1`
-    FOREIGN KEY (`Salesperson_idSalesperson`)
-    REFERENCES `mydb`.`Salesperson` (`idSalesperson`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+  INDEX `fk_Invoices_Salesperson1_idx` (`Salesperson_StaffID` ASC),
   CONSTRAINT `fk_Invoices_Customers1`
     FOREIGN KEY (`Customers_idCustomers`)
     REFERENCES `mydb`.`customers` (`idCustomers`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Invoices_Salesperson1`
+    FOREIGN KEY (`Salesperson_StaffID`)
+    REFERENCES `mydb`.`Salesperson` (`StaffID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -75,7 +75,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`Cars` (
   `idCars` INT NOT NULL AUTO_INCREMENT,
-  `VIN` INT NOT NULL,
+  `VIN` VARCHAR(100) NOT NULL,
   `Manufacturer` VARCHAR(45) NULL,
   `Model` VARCHAR(45) NULL,
   `Year` INT NULL,
@@ -83,10 +83,11 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Cars` (
   `Invoices_idInvoices` INT NOT NULL,
   `customers_idCustomers` INT NOT NULL,
   `Salesperson_idSalesperson` INT NOT NULL,
+  `Salesperson_StaffID` INT NOT NULL,
   INDEX `fk_Cars_Invoices1_idx` (`Invoices_idInvoices` ASC),
   INDEX `fk_Cars_customers1_idx` (`customers_idCustomers` ASC),
-  INDEX `fk_Cars_Salesperson1_idx` (`Salesperson_idSalesperson` ASC),
   PRIMARY KEY (`idCars`),
+  INDEX `fk_Cars_Salesperson1_idx` (`Salesperson_StaffID` ASC),
   CONSTRAINT `fk_Cars_Invoices1`
     FOREIGN KEY (`Invoices_idInvoices`)
     REFERENCES `mydb`.`Invoices` (`idInvoices`)
@@ -98,8 +99,8 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Cars` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Cars_Salesperson1`
-    FOREIGN KEY (`Salesperson_idSalesperson`)
-    REFERENCES `mydb`.`Salesperson` (`idSalesperson`)
+    FOREIGN KEY (`Salesperson_StaffID`)
+    REFERENCES `mydb`.`Salesperson` (`StaffID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -111,17 +112,18 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `mydb`.`customers_has_Salesperson` (
   `customers_idCustomers` INT NOT NULL,
   `Salesperson_idSalesperson` INT NOT NULL,
+  `Salesperson_StaffID` INT NOT NULL,
   PRIMARY KEY (`customers_idCustomers`, `Salesperson_idSalesperson`),
-  INDEX `fk_customers_has_Salesperson_Salesperson1_idx` (`Salesperson_idSalesperson` ASC),
   INDEX `fk_customers_has_Salesperson_customers1_idx` (`customers_idCustomers` ASC),
+  INDEX `fk_customers_has_Salesperson_Salesperson1_idx` (`Salesperson_StaffID` ASC),
   CONSTRAINT `fk_customers_has_Salesperson_customers1`
     FOREIGN KEY (`customers_idCustomers`)
     REFERENCES `mydb`.`customers` (`idCustomers`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_customers_has_Salesperson_Salesperson1`
-    FOREIGN KEY (`Salesperson_idSalesperson`)
-    REFERENCES `mydb`.`Salesperson` (`idSalesperson`)
+    FOREIGN KEY (`Salesperson_StaffID`)
+    REFERENCES `mydb`.`Salesperson` (`StaffID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -130,3 +132,4 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
