@@ -206,7 +206,7 @@ def visualize3(data):
             y_hat.append(pred_y)
         return y_hat 
     pred = plt.plot(data_year, data_freedom, 'x-')
-    plt.show(True)
+    #plt.show(True)
     pred_y = smoothing(data_year, data_freedom, alpha=.8, beta=.5)
     plt.plot(data_year[:len(pred_y)], pred_y, 'rx-')
     chart4 = plt.show()
@@ -214,9 +214,31 @@ def visualize3(data):
 chart4 = visualize3(data)
 
 
+def save(data):
+    cleaned = data.to_csv('cleaned.csv', index=False)
+    return cleaned
+
+cleaned = save(data)
+
+
 if __name__ == '__main__':
-    data = acquire()
-    filtered = wrangle(data)
-    results = analyze(filtered)
-    barchart = visualize(results)
-    save_viz(barchart)
+    df = acquire()
+    data = wrangle(df)
+    data_an_top5 = analyze1(data)
+    data_an_last5 = analyze1(data)
+    stats_top = analyze1(data)
+    stats_last = analyze1(data)
+    table_top = analyze2(data)
+    table_last = analyze2(data)
+    stats_new_zealand = analyze3(data) 
+    stats_new_zealand_change = analyze3(data) 
+    stats_spain = analyze3(data) 
+    stats_spain_change = analyze3(data) 
+    stats_venezuela = analyze3(data) 
+    stats_venezuela_change = analyze3(data)
+    corr = visualize1(data) 
+    chart1 = visualize1(data)
+    chart2 = visualize2(data) 
+    chart3 = visualize2(data)
+    chart4 = visualize3(data)
+    cleaned = save(data)
