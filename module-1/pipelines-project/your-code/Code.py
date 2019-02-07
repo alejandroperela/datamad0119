@@ -9,6 +9,7 @@ import pylab
 from numpy import polyfit, poly1d, linspace
 
 
+
 def acquire():
     data = pd.read_csv('hfi_cc_2018.csv')
     return data
