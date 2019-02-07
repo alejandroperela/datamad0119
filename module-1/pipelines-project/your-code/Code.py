@@ -41,7 +41,6 @@ def wrangle(data):
     data[data.isnull().any(axis=1)].head()
     data = data.dropna()
     return data
-    #cleaned = data.to_csv('cleaned.csv', index=False)
 data = wrangle(df)
 
 
