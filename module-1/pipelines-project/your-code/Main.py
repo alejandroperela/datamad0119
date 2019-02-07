@@ -11,9 +11,12 @@ from numpy import polyfit, poly1d, linspace
 
 def acquire():
     data = pd.read_csv('hfi_cc_2018.csv')
-    return data.head()
+    return data
+df = acquire()
 
-def wrangle(df):
+
+def wrangle(data):
+    data = pd.read_csv('hfi_cc_2018.csv')
     null_cols = data.isnull().sum()
     null_cols[null_cols > 0].head()
     data.columns
@@ -36,87 +39,103 @@ def wrangle(df):
     print('Number of duplicate records dropped: ', str(before - after))
     data[data.isnull().any(axis=1)].head()
     data = data.dropna()
-    return data.head()
+    return data
+    #cleaned = data.to_csv('cleaned.csv', index=False)
+data = wrangle(df)
 
-def analyze(df):
+
+def analyze1(data):
+    year_an = int(input('Escribe el año a partir del cual quieres analizar los datos: '))
+    column_an = str(input('Escribe el índice por el cual quieres ordenar los datos: '))
     years = data["Year"]
-    drop_cols = list(years[years < 2016].index)
-    data_2016 = data.drop(drop_cols, axis=0)
-    data_2016_top5 = data_2016.sort_values(by='Human_Freedom', ascending=False).head()
-    data_2016_last5 = data_2016.sort_values(by='Human_Freedom', ascending=True).head()
-    return data_2016_top5
-    return data_2016_last5
+    drop_cols = list(years[years < year_an].index)
+    data_an = data.drop(drop_cols, axis=0)
+    data_an_top5 = data_an.sort_values(by=column_an, ascending=False).head()
+    data_an_last5 = data_an.sort_values(by=column_an, ascending=True).head()
+    stats_top = data_an_top5.describe().transpose()
+    stats_last = data_an_last5.describe().transpose()
+    return data_an_top5, data_an_last5, stats_top,stats_last
+data_an_top5, data_an_last5, stats_top, stats_last = analyze1(data)
 
-    important_columns = ["Year", "Country", "Civil_justice", "Freedom_of_association", "Freedom_of_expression", 
-                     "Same_sex_relationships", "Personal_Freedom","Economic_Freedom","Human_Freedom"]
-    stats_top = data_2016_top5[important_columns].describe().transpose()
-    stats_last = data_2016_last5[important_columns].describe().transpose()
-    return stats_top
-    return stats_last
 
-    table_top = pd.pivot_table(data_2016_top5, values=['Civil_justice', 'Human_Freedom'], index=['Year'], 
-                       aggfunc={'Civil_justice': np.mean, 'Human_Freedom': np.mean})
-    table_last = pd.pivot_table(data_2016_last5, values=['Civil_justice', 'Human_Freedom'], index=['Year'], 
-                       aggfunc={'Civil_justice': np.mean, 'Human_Freedom': np.mean})
-    return table_top
-    return table_last
+def analyze2(data):
+    index_an = str(input('Escribe qué valor quieres que haga de índice: '))
+    column_an2 = str(input('Escribe el primer índice por el cual quieres comparar los datos: '))
+    column_an3 = str(input('Escribe el segundo índice por el cual quieres comparar los datos: '))
+    table_top = pd.pivot_table(data_an_top5, values=[column_an2, column_an3], index=index_an, 
+                        aggfunc={column_an2: np.mean, column_an3: np.mean})
+    table_last = pd.pivot_table(data_an_last5, values=[column_an2, column_an3], index=index_an, 
+                        aggfunc={column_an2: np.mean, column_an3: np.mean})
+    return table_top, table_last
+table_top, table_last = analyze2(data)
 
-    data_new_zealand = data[(data['Country']=='New Zealand')]
-    data_new_zealand = data_new_zealand.sort_values(by='Year', ascending=False)
-    columns_analysis = ['Year', 'Civil_justice', 'Human_Freedom']
+
+def analyze3(data):
+    country_an = str(input('Escribe uno de los 3 países que vas a analizar de forma conjunta: '))
+    country_an2 = str(input('Escribe el segundo de los 3 países que vas a analizar de forma conjunta: '))
+    country_an3 = str(input('Escribe el tercero de los 3 países que vas a analizar de forma conjunta: '))
+    index_an2 = str(input('Escribe por qué valor quieres que se ordene el análisis: '))
+    column_an4 = str(input('Escribe el primer índice por el cual quieres comparar los datos: '))
+    column_an5 = str(input('Escribe el segundo índice por el cual quieres comparar los datos: '))
+    year1 = int(input('Escribe el año inicial a partir del cual quieres analizar los datos: '))
+    year2 = int(input('Escribe el año final en el que quieres acabar el análisis: '))
+    z = int(int(year2) - int(year1))
+
+    data_new_zealand = data[(data['Country']==country_an)]
+    data_new_zealand = data_new_zealand.sort_values(by=index_an2, ascending=False)
+    columns_analysis = [index_an2, column_an4, column_an5]
     stats_new_zealand = data_new_zealand[columns_analysis]
-    stats_new_zealand = stats_new_zealand.set_index('Year')
-    return stats_new_zealand
-    return stats_new_zealand.pct_change()
-    title = 'Evolution of Freedom in New Zealand'
+    stats_new_zealand = stats_new_zealand.set_index(index_an2)
+    stats_new_zealand_change = stats_new_zealand.pct_change()
+    title = 'Evolution of ' + str(column_an5)
     sns.set(style="whitegrid")
-    zea_freedom = sns.barplot(x="Year", y="Human_Freedom", data=data_new_zealand, palette="Blues")
+    zea_freedom = sns.barplot(x=index_an2, y=column_an5, data=data_new_zealand, palette="Blues")
     plt.title(title, fontsize=14)
-    zea_civil_year = ((stats_new_zealand.loc[2016, 'Civil_justice']/stats_new_zealand.loc[2008, 'Civil_justice'])**(1/8)-1)*100
-    zea_civil = ((stats_new_zealand.loc[2016, 'Civil_justice']/stats_new_zealand.loc[2008, 'Civil_justice'])-1)*100
-    zea_freedom_year = ((stats_new_zealand.loc[2016, 'Human_Freedom']/stats_new_zealand.loc[2008, 'Human_Freedom'])**(1/8)-1)*100
-    zea_freedom = ((stats_new_zealand.loc[2016, 'Human_Freedom']/stats_new_zealand.loc[2008, 'Human_Freedom'])-1)*100
-    print("La variación ANUAL de la Justicia Social y de la Libertad en Nueva Zelanda durante los últimos 8 años ha sido respectivamente de un " + str(round(zea_civil_year, 2)) + "%, y de un " + str(round(zea_freedom_year, 2)) + "%.")
-    print("La variación TOTAL de la Justicia Social y de la Libertad en NUeva Zelanda entre 2008 y 2016 ha sido respectivamente de un " + str(round(zea_civil, 2)) + "%, y de un " + str(round(zea_freedom, 2)) + "%.")
+    zea_civil_year = ((stats_new_zealand.loc[year2, column_an4]/stats_new_zealand.loc[year1, column_an4])**(1/z)-1)*100
+    zea_civil = ((stats_new_zealand.loc[year2, column_an4]/stats_new_zealand.loc[year1, column_an4])-1)*100
+    zea_freedom_year = ((stats_new_zealand.loc[year2, column_an5]/stats_new_zealand.loc[year1, column_an5])**(1/z)-1)*100
+    zea_freedom = ((stats_new_zealand.loc[year2, column_an5]/stats_new_zealand.loc[year1, column_an5])-1)*100
+    print("La variación ANUAL de " + str(column_an4) + " y de " + str(column_an5) + " en " + str(country_an) + " durante los últimos " + str(z) + " años ha sido respectivamente de un " + str(round(zea_civil_year, 2)) + "%, y de un " + str(round(zea_freedom_year, 2)) + "%.")
+    print("La variación TOTAL de " + str(column_an4) + " y de " + str(column_an5) + " en " + str(country_an) + " entre " + str(year1) + " y " + str(year2) + " ha sido respectivamente de un " + str(round(zea_civil, 2)) + "%, y de un " + str(round(zea_freedom, 2)) + "%.")
 
-    data_spain = data[(data['Country']=='Spain')]
-    data_spain = data_spain.sort_values(by='Year', ascending=False)
+    data_spain = data[(data['Country']==country_an2)]
+    data_spain = data_spain.sort_values(by=index_an2, ascending=False)
     stats_spain = data_spain[columns_analysis]
-    stats_spain = stats_spain.set_index('Year')
-    return stats_spain
-    return stats_spain.pct_change()
-    title = 'Evolution of Freedom in Spain'
+    stats_spain = stats_spain.set_index(index_an2)
+    stats_spain_change = stats_spain.pct_change()
+    title = 'Evolution of ' + str(column_an5)
     sns.set(style="whitegrid")
-    spa_freedom = sns.barplot(x="Year", y="Human_Freedom", data=data_spain, palette="Greens")
+    spa_freedom = sns.barplot(x=index_an2, y=column_an5, data=data_spain, palette="Greens")
     plt.title(title, fontsize=14)
-    spa_civil_year = ((stats_spain.loc[2016, 'Civil_justice']/stats_spain.loc[2008, 'Civil_justice'])**(1/8)-1)*100
-    spa_civil = ((stats_spain.loc[2016, 'Civil_justice']/stats_spain.loc[2008, 'Civil_justice'])-1)*100
-    spa_freedom_year = ((stats_spain.loc[2016, 'Human_Freedom']/stats_spain.loc[2008, 'Human_Freedom'])**(1/8)-1)*100
-    spa_freedom = ((stats_spain.loc[2016, 'Human_Freedom']/stats_spain.loc[2008, 'Human_Freedom'])-1)*100
-    print("La variación ANUAL de la Justicia Social y de la Libertad en Venezuela durante los últimos 8 años ha sido respectivamente de un " + str(round(spa_civil_year, 2)) + "%, y de un " + str(round(spa_freedom_year, 2)) + "%.")
-    print("La variación TOTAL de la Justicia Social y de la Libertad en Venezuela entre 2008 y 2016 ha sido respectivamente de un " + str(round(spa_civil, 2)) + "%, y de un " + str(round(spa_freedom, 2)) + "%.")
+    spa_civil_year = ((stats_spain.loc[year2, column_an4]/stats_spain.loc[year1, column_an4])**(1/z)-1)*100
+    spa_civil = ((stats_spain.loc[year2, column_an4]/stats_spain.loc[year1, column_an4])-1)*100
+    spa_freedom_year = ((stats_spain.loc[year2, column_an5]/stats_spain.loc[year1, column_an5])**(1/z)-1)*100
+    spa_freedom = ((stats_spain.loc[year2, column_an5]/stats_spain.loc[year1, column_an5])-1)*100
+    print("La variación ANUAL de " + str(column_an4) + " y de " + str(column_an5) + " en " + str(country_an2) + " durante los últimos " + str(z) + " años ha sido respectivamente de un " + str(round(spa_civil_year, 2)) + "%, y de un " + str(round(spa_freedom_year, 2)) + "%.")
+    print("La variación TOTAL de " + str(column_an4) + " y de " + str(column_an5) + " en " + str(country_an2) + " entre " + str(year1) + " y " + str(year2) + " ha sido respectivamente de un " + str(round(spa_civil, 2)) + "%, y de un " + str(round(spa_freedom, 2)) + "%.")
 
-    data_venezuela = data[(data['Country']=='Venezuela')]
-    data_venezuela = data_venezuela.sort_values(by='Year', ascending=False)
+    data_venezuela = data[(data['Country']==country_an3)]
+    data_venezuela = data_venezuela.sort_values(by=index_an2, ascending=False)
     stats_venezuela = data_venezuela[columns_analysis]
-    stats_venezuela = stats_venezuela.set_index('Year')
-    return stats_venezuela
-    return stats_venezuela.pct_change()
-    title = 'Evolution of Freedom in Venezuela'
+    stats_venezuela = stats_venezuela.set_index(index_an2)
+    stats_venezuela_change = stats_venezuela.pct_change()
+    title = 'Evolution of ' + str(column_an5)
     sns.set(style="whitegrid")
-    ven_freedom = sns.barplot(x="Year", y="Human_Freedom", data=data_venezuela, palette="Reds")
+    ven_freedom = sns.barplot(x=index_an2, y=column_an5, data=data_venezuela, palette="Reds")
     plt.title(title, fontsize=14)
-    ven_civil_year = ((stats_venezuela.loc[2016, 'Civil_justice']/stats_venezuela.loc[2008, 'Civil_justice'])**(1/8)-1)*100
-    ven_civil = ((stats_venezuela.loc[2016, 'Civil_justice']/stats_venezuela.loc[2008, 'Civil_justice'])-1)*100
-    ven_freedom_year = ((stats_venezuela.loc[2016, 'Human_Freedom']/stats_venezuela.loc[2008, 'Human_Freedom'])**(1/8)-1)*100
-    ven_freedom = ((stats_venezuela.loc[2016, 'Human_Freedom']/stats_venezuela.loc[2008, 'Human_Freedom'])-1)*100
-    print("La variación ANUAL de la Justicia Social y de la Libertad en Venezuela durante los últimos 8 años ha sido respectivamente de un " + str(round(ven_civil_year, 2)) + "%, y de un " + str(round(ven_freedom_year, 2)) + "%.")
-    print("La variación TOTAL de la Justicia Social y de la Libertad en Venezuela entre 2008 y 2016 ha sido respectivamente de un " + str(round(ven_civil, 2)) + "%, y de un " + str(round(ven_freedom, 2)) + "%.")
+    ven_civil_year = ((stats_venezuela.loc[year2, column_an4]/stats_venezuela.loc[year1, column_an4])**(1/z)-1)*100
+    ven_civil = ((stats_venezuela.loc[year2, column_an4]/stats_venezuela.loc[year1, column_an4])-1)*100
+    ven_freedom_year = ((stats_venezuela.loc[year2, column_an5]/stats_venezuela.loc[year1, column_an5])**(1/z)-1)*100
+    ven_freedom = ((stats_venezuela.loc[year2, column_an5]/stats_venezuela.loc[year1, column_an5])-1)*100
+    print("La variación ANUAL de " + str(column_an4) + " y de " + str(column_an5) + " en " + str(country_an3) + " durante los últimos " + str(z) + " años ha sido respectivamente de un " + str(round(ven_civil_year, 2)) + "%, y de un " + str(round(ven_freedom_year, 2)) + "%.")
+    print("La variación TOTAL de " + str(column_an4) + " y de " + str(column_an5) + " en " + str(country_an2) + " entre " + str(year1) + " y " + str(year2) + " ha sido respectivamente de un " + str(round(ven_civil, 2)) + "%, y de un " + str(round(ven_freedom, 2)) + "%.")
+    return stats_new_zealand, stats_new_zealand_change, stats_spain, stats_spain_change, stats_venezuela, stats_venezuela_change
+stats_new_zealand, stats_new_zealand_change, stats_spain, stats_spain_change, stats_venezuela, stats_venezuela_change = analyze3(data)
 
 
-def visualize(df):
+def visualize1(data):
     correlations = data.corr()
-    return correlations
+    corr = display(correlations)
 
     fig = plt.figure()
     ax = fig.add_subplot(111)
@@ -134,8 +153,12 @@ def visualize(df):
     ax.set_yticks(ticks)
     ax.set_xticklabels(data)
     ax.set_yticklabels(data)
-    plt.show()
+    chart1 = plt.show()
+    return correlations, chart1
+corr, chart1 = visualize1(data)
 
+
+def visualize2(data):
     data_plot = [[5.257879, 2008, 12],
                  [5.283514, 2009, 12],
                  [5.156619, 2010, 12],
@@ -147,22 +170,25 @@ def visualize(df):
                  [4.200724, 2016, 12]]
     freedom = [i[0] for i in data_plot]
     years = [i[1] for i in data_plot]
-    plt.plot(years, freedom)
+    chart2 = plt.plot(years, freedom)
+
     for i in range(0, len(data)-3):
-        # interpolate values
-        # you can choose for yourself how many point should be taken into account
-        # as well as the degree of interpolation (the last variable mentioned)
+    
         z = polyfit(years[i:i+7],freedom[i:i+7], 1)
         p = poly1d(z)
-        # extrapolate interpolation by 1
+
         start_year = years[i]
         end_year = years[i+3] + 1
-        # plot values 
+
         x = linspace(start_year, end_year, 10)
         y = p(x)
         plt.plot(x, y)
-    return plt.show()
+    chart3 = plt.show()
+    return chart2, chart3
+chart2, chart3 = visualize2(data)
 
+
+def visualize3(data):
     data_year = [2008,2009,2010,2010,2012,2013,2014,2015,2016]
     data_freedom = [5.257879,5.283514,5.156619,5.332458,5.225650,5.013857,4.573730,4.241750,4.200724]
     def holt_alg(h, y_last, y_pred, T_pred, alpha, beta):
@@ -183,30 +209,10 @@ def visualize(df):
     plt.show(True)
     pred_y = smoothing(data_year, data_freedom, alpha=.8, beta=.5)
     plt.plot(data_year[:len(pred_y)], pred_y, 'rx-')
-    plt.show()
+    chart4 = plt.show()
+    return chart4
+chart4 = visualize3(data)
 
-
-
-
-
-def wrangle_null(data):
-    filtered = data[data['Year']==year]
-    return filtered
-
-def analyze(df):
-    grouped = filtered.groupby('Make').agg({'Combined MPG':'mean'}).reset_index()
-    results = grouped.sort_values('Combined MPG', ascending=False).head(10)
-    return results
-
-def visualize(df):
-    fig, ax = plt.subplots(figsize=(15,8))
-    barchart = sns.barplot(data=results, x='Make', y='Combined MPG')
-    plt.title(title + "\n", fontsize=16)
-    return barchart
-
-def save_viz(barchart):
-    fig = barchart.get_figure()
-    fig.savefig(title + '.png')
 
 if __name__ == '__main__':
     data = acquire()
