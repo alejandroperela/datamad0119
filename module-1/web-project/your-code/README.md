@@ -38,7 +38,7 @@ Ahora juntamos ambos datasets para crear una base de datos más grande y más en
 
 ## Twitter API
 
-He decidido utilizar una segunda API para saber cómo de populares son en la actualidad los autores de las citas, obteniendo tweets clasificados como populares que contengan el nombre del autor. El problema es que he alcanzado el límite de peticiones.
+He decidido utilizar una segunda API para saber cómo de populares son en la actualidad los autores de las citas, obteniendo tweets clasificados como populares que contengan el nombre del autor. Una cosa importante a la hora de trabajar con esta API es que sólo puedes hacer 180 peticiones cada 15 minutos, por lo que he tenido que hacer 6 peticiones para buscar todos los autores.
 
 La fórmula funcionaba porque la he utilizado para obtener el número de tweets populares sobre Alex Txikon (un escalador español), Himalaya, Esperanza Aguirre y Colón, y me daba cantidades de alrededor de 4 y 25, bastante razonables.
 
@@ -46,11 +46,9 @@ Dado que no puedo hacer la petición para todo mi DataFrame, dejo puesta la fór
 
 
 
-## Google Translate API
+## Translate API
 
-Con la siguiente API lo que pretendo es traducir cada una de las citas al español. Aunque el funcionamiento de esta API se basa en funciones y no en peticiones que se hacen a una URL como tal como en el caso de la Wikipedia.
-
-Con esta API he tenido bastantes problemas, ya que la primera vez que la he utilizado ha funcionado correctamente, pero las veces posteriores, una vez he ajustado un poco el código, me ha dado continuamente el siguiente error: "JSONDecodeError: Expecting value: line 1 column 1 (char 0)". Según aparece en internet, es por haber hecho demasiadas peticiones, aunque no he conseguido obtener una explicación del todo clara.
+Con la siguiente API (https://pypi.org/project/translate/) lo que pretendo es traducir cada una de las citas al español. Aunque el funcionamiento de esta API se basa en funciones y no en peticiones que se hacen a una URL tal como en el caso de la Wikipedia. Esta API, al igual que la anterior, tiene un límite de uso cada x tiempo que ahora mismo no conozco.
 
 Para ello, y de forma similar a la anterior API, trabajo con un bucle que para cada cita me haga la traducción del inglés al español. Y como antes, inserto el resultado en un DataFrame que posteriormente fusiono con las dos bases de datos anteriores.
 
