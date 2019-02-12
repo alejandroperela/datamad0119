@@ -38,11 +38,7 @@ Ahora juntamos ambos datasets para crear una base de datos más grande y más en
 
 ## Twitter API
 
-He decidido utilizar una segunda API para saber cómo de populares son en la actualidad los autores de las citas, obteniendo tweets clasificados como populares que contengan el nombre del autor. Una cosa importante a la hora de trabajar con esta API es que sólo puedes hacer 180 peticiones cada 15 minutos, por lo que he tenido que hacer 6 peticiones para buscar todos los autores.
-
-La fórmula funcionaba porque la he utilizado para obtener el número de tweets populares sobre Alex Txikon (un escalador español), Himalaya, Esperanza Aguirre y Colón, y me daba cantidades de alrededor de 4 y 25, bastante razonables.
-
-Dado que no puedo hacer la petición para todo mi DataFrame, dejo puesta la fórmula completa.
+He decidido utilizar una segunda API para saber cómo de populares son en la actualidad los autores de las citas, obteniendo tweets clasificados como populares que contengan el nombre del autor. Una cosa importante a la hora de trabajar con esta API es que sólo puedes hacer 180 peticiones cada 15 minutos, por lo que he tenido que hacer 6 peticiones diferentes cada 15 minutos para buscar todos los autores.
 
 
 
@@ -56,7 +52,9 @@ Para ello, y de forma similar a la anterior API, trabajo con un bucle que para c
 
 ## Obstáculos encontrados
 
-Creo que el principal obstáculo que me he encontrado ha sido el trabajar con la API de WIkipedia, ya que inicialmente empecé trabajando con una variante de la misma que funcionaba a través de funciones, y la cual tardaba mucho en cargar la información. Fue posteriormente cuando descubría la otra variante y que esa más rápida.
+Creo que el principal obstáculo que me he encontrado ha sido el trabajar con la API de Wikipedia, ya que inicialmente empecé trabajando con una variante de la misma que funcionaba a través de funciones, y la cual tardaba mucho en cargar la información. Fue posteriormente cuando descubría la otra variante y que esa más rápida.
+
+Otro obstáculo ha sido que haya límites de tiempo y de peticiones para las APIs, dado que limita mucho el trabajo.
 
 Aparte de eso, el resto de obstáculos han sido pequeños y simplemente ha sido cuestión de investigar un poco.
 
