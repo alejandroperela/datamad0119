@@ -23,16 +23,16 @@
 {"name":"Weardrobe","sector":"web","twitter_account":"weardrobe","city":"Palo Alto","employees":2,"position":{"type":"Point","coordinates":[-122.164925,37.446662]},"followers":1146}
 {"name":"Cotendo","sector":"software","twitter_account":"cotendo","city":"Sunnyvale","employees":30,"position":{"type":"Point","coordinates":[-122.259568,37.504764]},"followers":"no username"}
 {"name":"GamerNook","sector":"web","twitter_account":"GamerNook","city":"Toms River","employees":3,"position":{"type":"Point","coordinates":[-74.125176,39.949301]},"followers":631}
-{"name":"Twubble","sector":"web","twitter_account":"crazybob","city":"","employees":1,"position":{"type":"Point","coordinates":[-119.306607,37.269175]},"followers":16577}
+{"name":"Twubble","sector":"web","twitter_account":"crazybob","city":"","employees":1,"position":{"type":"Point","coordinates":[-119.306607,37.269175]},"followers":16580}
 {"name":"Edistorm","sector":"software","twitter_account":"edistorm","city":"Edmonton","employees":4,"position":{"type":"Point","coordinates":[-113.502765,53.534692]},"followers":409}
-{"name":"FinFolio","sector":"software","twitter_account":"FinFolio","city":"Las Vegas","employees":3,"position":{"type":"Point","coordinates":[-115.154816,36.136552]},"followers":2141}
+{"name":"FinFolio","sector":"software","twitter_account":"FinFolio","city":"Las Vegas","employees":3,"position":{"type":"Point","coordinates":[-115.154816,36.136552]},"followers":2142}
 {"name":"FragMob","sector":"software","twitter_account":"JadeCharles","city":"San Diego","employees":12,"position":{"type":"Point","coordinates":[-118.36543,34.063441]},"followers":1844}
 {"name":"skoogO","sector":"web","twitter_account":"","city":"Ann Arbor","employees":1,"position":{"type":"Point","coordinates":[-83.731129,42.282255]},"followers":"no username"}
 {"name":"Jobingenieur","sector":"web","twitter_account":null,"city":"Rennes","employees":2,"position":{"type":"Point","coordinates":[-1.6629087,48.1128512]},"followers":"no username"}
 {"name":"Cutcaster","sector":"web","twitter_account":"cutcaster","city":"San Francisco","employees":8,"position":{"type":"Point","coordinates":[-122.457454,37.79851]},"followers":1968}
 {"name":"Mad Mimi","sector":"web","twitter_account":"madmimi","city":"Brooklyn","employees":35,"position":{"type":"Point","coordinates":[-73.980306,40.66509]},"followers":22665}
 {"name":"Beer Universe","sector":"web","twitter_account":"BeerUniverse","city":"Chicago","employees":3,"position":{"type":"Point","coordinates":[-78.922055,36.009825]},"followers":0}
-{"name":"Macroaxis","sector":"software","twitter_account":"macroaxis","city":"San Francisco","employees":8,"position":{"type":"Point","coordinates":[-122.3998782,37.7896292]},"followers":10109}
+{"name":"Macroaxis","sector":"software","twitter_account":"macroaxis","city":"San Francisco","employees":8,"position":{"type":"Point","coordinates":[-122.3998782,37.7896292]},"followers":10108}
 {"name":"Mollom","sector":"public_relations","twitter_account":"mollom","city":"Berchem","employees":2,"position":{"type":"Point","coordinates":[4.4213295,51.1929359]},"followers":1939}
 {"name":"Crowdstatus","sector":"public_relations","twitter_account":null,"city":"","employees":1,"position":{"type":"Point","coordinates":[-3.435973,55.378051]},"followers":"no username"}
 {"name":"UserVoice","sector":"software","twitter_account":"uservoice","city":"San Francisco","employees":22,"position":{"type":"Point","coordinates":[-122.0253784,36.9751032]},"followers":18202}
@@ -44,7 +44,7 @@
 {"name":"CogCog","sector":"web","twitter_account":null,"city":"Akron","employees":2,"position":{"type":"Point","coordinates":[-81.473725,41.143544]},"followers":"no username"}
 {"name":"uLiken","sector":"web","twitter_account":null,"city":"Cherry Hill","employees":2,"position":{"type":"Point","coordinates":[-75.024335,39.928792]},"followers":"no username"}
 {"name":"FuelClinic","sector":"public_relations","twitter_account":null,"city":"","employees":2,"position":{"type":"Point","coordinates":[-79.420926,38.003376]},"followers":"no username"}
-{"name":"FRoSP","sector":"web","twitter_account":"home","city":"Cologne","employees":2,"position":{"type":"Point","coordinates":[6.9280123,50.9508924]},"followers":13206}
+{"name":"FRoSP","sector":"web","twitter_account":"home","city":"Cologne","employees":2,"position":{"type":"Point","coordinates":[6.9280123,50.9508924]},"followers":13213}
 {"name":"College Mogul","sector":"web","twitter_account":"mogulcollege","city":"New York","employees":9,"position":{"type":"Point","coordinates":[-73.963158,40.798345]},"followers":31}
 {"name":"Moosti","sector":"web","twitter_account":null,"city":"","employees":2,"position":{"type":"Point","coordinates":[-8.224454,39.399872]},"followers":"no username"}
 {"name":"SmashingFeeds","sector":"web","twitter_account":"blogfisher","city":"Hyderabad","employees":1,"position":{"type":"Point","coordinates":[78.486671,17.385044]},"followers":269}
@@ -54,14 +54,14 @@
 {"name":"Worship Journal","sector":"web","twitter_account":null,"city":"London","employees":3,"position":{"type":"Point","coordinates":[-0.150417,51.517076]},"followers":"no username"}
 {"name":"Mouth Watering Media","sector":"web","twitter_account":null,"city":"Houston","employees":10,"position":{"type":"Point","coordinates":[-95.390758,29.735082]},"followers":"no username"}
 {"name":"Blazing Bid","sector":"web","twitter_account":null,"city":"Raleigh","employees":1,"position":{"type":"Point","coordinates":[-78.643414,35.779748]},"followers":"no username"}
-{"name":"Spoonflower","sector":"web","twitter_account":"spoonflower","city":"Durham","employees":35,"position":{"type":"Point","coordinates":[-79.266246,36.0966]},"followers":37056}
+{"name":"Spoonflower","sector":"web","twitter_account":"spoonflower","city":"Durham","employees":35,"position":{"type":"Point","coordinates":[-79.266246,36.0966]},"followers":37055}
 {"name":"Ovologic","sector":"software","twitter_account":"evolliaweb","city":"Qu\u00c3\u00a9bec","employees":1,"position":{"type":"Point","coordinates":[-71.20097,46.898577]},"followers":1933}
 {"name":"Socruise","sector":"web","twitter_account":null,"city":"Kent","employees":5,"position":{"type":"Point","coordinates":[0.257568,51.125693]},"followers":"no username"}
 {"name":"wagehub","sector":"web","twitter_account":null,"city":"Madison Heights","employees":1,"position":{"type":"Point","coordinates":[-83.14483,42.51214]},"followers":"no username"}
-{"name":"SFentrepreneur","sector":"web","twitter_account":"entmagazine","city":"San Francisco","employees":2,"position":{"type":"Point","coordinates":[-122.437262,37.78597]},"followers":28760}
+{"name":"SFentrepreneur","sector":"web","twitter_account":"entmagazine","city":"San Francisco","employees":2,"position":{"type":"Point","coordinates":[-122.437262,37.78597]},"followers":28762}
 {"name":"Plurk","sector":"web","twitter_account":null,"city":"Mississauga","employees":7,"position":{"type":"Point","coordinates":[-79.603622,43.657979]},"followers":"no username"}
 {"name":"Pinch Media","sector":"software","twitter_account":null,"city":"New York","employees":6,"position":{"type":"Point","coordinates":[-73.985506,40.757929]},"followers":"no username"}
-{"name":"PRunderground","sector":"public_relations","twitter_account":"prunderground","city":"Brewster","employees":12,"position":{"type":"Point","coordinates":[-73.614577,41.395013]},"followers":4544}
+{"name":"PRunderground","sector":"public_relations","twitter_account":"prunderground","city":"Brewster","employees":12,"position":{"type":"Point","coordinates":[-73.614577,41.395013]},"followers":4545}
 {"name":"Manam Infotech","sector":"software","twitter_account":"manamtech","city":"Bangalore","employees":20,"position":{"type":"Point","coordinates":[77.653739,12.975531]},"followers":40}
 {"name":"Ucareer","sector":"web","twitter_account":null,"city":"Austin","employees":6,"position":{"type":"Point","coordinates":[-97.763987,30.275261]},"followers":"no username"}
 {"name":"DormTrader","sector":"web","twitter_account":"","city":"Chicago","employees":1,"position":{"type":"Point","coordinates":[-87.66831,42.010632]},"followers":"no username"}
@@ -81,23 +81,23 @@
 {"name":"Passitto","sector":"web","twitter_account":null,"city":"Boulder","employees":3,"position":{"type":"Point","coordinates":[-105.278025,40.01831]},"followers":"no username"}
 {"name":"Carfeine","sector":"software","twitter_account":"carfeine","city":"Bethesda","employees":5,"position":{"type":"Point","coordinates":[-77.026676,38.989124]},"followers":815}
 {"name":"Ziippi","sector":"web","twitter_account":"","city":"Palo Alto","employees":6,"position":{"type":"Point","coordinates":[-122.1612868,37.4440981]},"followers":"no username"}
-{"name":"Pink Banana Media","sector":"consulting","twitter_account":"PinkBananaWorld","city":"West Hollywood","employees":2,"position":{"type":"Point","coordinates":[-118.367701,34.091073]},"followers":9029}
+{"name":"Pink Banana Media","sector":"consulting","twitter_account":"PinkBananaWorld","city":"West Hollywood","employees":2,"position":{"type":"Point","coordinates":[-118.367701,34.091073]},"followers":9033}
 {"name":"Geekdom","sector":"web","twitter_account":null,"city":"Sydney","employees":50,"position":{"type":"Point","coordinates":[151.208584,-33.860404]},"followers":"no username"}
-{"name":"BitRock","sector":"software","twitter_account":"bitnami","city":"Alameda","employees":20,"position":{"type":"Point","coordinates":[-122.274771,37.78424]},"followers":9809}
+{"name":"BitRock","sector":"software","twitter_account":"bitnami","city":"Alameda","employees":20,"position":{"type":"Point","coordinates":[-122.274771,37.78424]},"followers":9812}
 {"name":"Xilinus","sector":"web","twitter_account":"maptimize","city":"Cesson S\u00c3\u00a9vign\u00c3\u00a9","employees":2,"position":{"type":"Point","coordinates":[-1.611882,48.10583]},"followers":980}
 {"name":"EventElephant","sector":"software","twitter_account":"EventElephant","city":"Richmond","employees":20,"position":{"type":"Point","coordinates":[-6.252923,53.335194]},"followers":4173}
 {"name":"oybuzz","sector":"consulting","twitter_account":null,"city":"Richmond Hill","employees":5,"position":{"type":"Point","coordinates":[-79.4242645,43.874167]},"followers":"no username"}
 {"name":"CreActivity Focus","sector":"web","twitter_account":null,"city":"Lima","employees":10,"position":{"type":"Point","coordinates":[-77.0551909,-12.0805011]},"followers":"no username"}
 {"name":"Forvo","sector":"web","twitter_account":"forvo","city":"San Sebasti\u00e1n","employees":4,"position":{"type":"Point","coordinates":[-1.9820361,43.3135579]},"followers":4509}
 {"name":"Uprizer Labs","sector":"software","twitter_account":null,"city":"Austin","employees":5,"position":{"type":"Point","coordinates":[-97.710481,30.291391]},"followers":"no username"}
-{"name":"JumpForward","sector":"software","twitter_account":"jumpforward","city":"Chicago","employees":30,"position":{"type":"Point","coordinates":[-87.623923,41.857204]},"followers":1874}
+{"name":"JumpForward","sector":"software","twitter_account":"jumpforward","city":"Chicago","employees":30,"position":{"type":"Point","coordinates":[-87.623923,41.857204]},"followers":1875}
 {"name":"Posterous","sector":"web","twitter_account":"posterous","city":"San Francisco","employees":9,"position":{"type":"Point","coordinates":[-122.419204,37.775196]},"followers":66596}
 {"name":"Mobile Teleshoppe","sector":"consulting","twitter_account":"telesols","city":"Jaipur","employees":20,"position":{"type":"Point","coordinates":[75.7664384,26.891551]},"followers":"no username"}
 {"name":"Mobile Teleshoppe","sector":"consulting","twitter_account":"telesols","city":"Mumbai","employees":20,"position":{"type":"Point","coordinates":[72.856178,19.017656]},"followers":"no username"}
 {"name":"SNASM","sector":"web","twitter_account":"SNASM","city":"Boynton Beach","employees":2,"position":{"type":"Point","coordinates":[-80.082474,26.528215]},"followers":748}
 {"name":"Jetrecord","sector":"web","twitter_account":"jetrecord","city":"Seattle","employees":1,"position":{"type":"Point","coordinates":[-105.20545,40.179731]},"followers":"no username"}
 {"name":"Open Places","sector":"web","twitter_account":"trazzler","city":"San Francisco","employees":3,"position":{"type":"Point","coordinates":[-122.398379,37.758352]},"followers":3085}
-{"name":"TweetDeck","sector":"software","twitter_account":"TweetDeck","city":"London","employees":5,"position":{"type":"Point","coordinates":[-0.1262362,51.5001524]},"followers":2631851}
+{"name":"TweetDeck","sector":"software","twitter_account":"TweetDeck","city":"London","employees":5,"position":{"type":"Point","coordinates":[-0.1262362,51.5001524]},"followers":2631802}
 {"name":"Widgenie","sector":"public_relations","twitter_account":null,"city":"mexico|","employees":9,"position":{"type":"Point","coordinates":[-99.133208,19.4326077]},"followers":"no username"}
 {"name":"vunite media","sector":"public_relations","twitter_account":"vunite","city":"Salt Lake City","employees":3,"position":{"type":"Point","coordinates":[-111.858952,40.766429]},"followers":15}
 {"name":"Ninth Yard","sector":"software","twitter_account":"","city":"Omaha","employees":1,"position":{"type":"Point","coordinates":[-97.745209,30.268735]},"followers":"no username"}
@@ -141,14 +141,14 @@
 {"name":"Orinea","sector":"web","twitter_account":"","city":"Paris","employees":5,"position":{"type":"Point","coordinates":[2.3249952,48.8785721]},"followers":"no username"}
 {"name":"Orinea","sector":"web","twitter_account":"","city":"Casablanca, Maroc","employees":5,"position":{"type":"Point","coordinates":[-7.6332257,33.5922469]},"followers":"no username"}
 {"name":"TheWebService","sector":"web","twitter_account":null,"city":"Worcester","employees":12,"position":{"type":"Point","coordinates":[-2.26681,52.232349]},"followers":"no username"}
-{"name":"TwitterCounter","sector":"web","twitter_account":"thecounter","city":"Amsterdam","employees":1,"position":{"type":"Point","coordinates":[4.8926529,52.3644743]},"followers":106979}
+{"name":"TwitterCounter","sector":"web","twitter_account":"thecounter","city":"Amsterdam","employees":1,"position":{"type":"Point","coordinates":[4.8926529,52.3644743]},"followers":106981}
 {"name":"Digital ReveNew","sector":"consulting","twitter_account":null,"city":"Milan","employees":20,"position":{"type":"Point","coordinates":[9.2298577,45.507014]},"followers":"no username"}
 {"name":"Digital ReveNew","sector":"consulting","twitter_account":null,"city":"Rome","employees":20,"position":{"type":"Point","coordinates":[12.4941336,41.8975813]},"followers":"no username"}
-{"name":"Strider SEO","sector":"consulting","twitter_account":"RKF","city":"Toronto","employees":3,"position":{"type":"Point","coordinates":[-79.554784,43.632844]},"followers":1305}
-{"name":"Strider SEO","sector":"consulting","twitter_account":"RKF","city":"Woodbridge","employees":3,"position":{"type":"Point","coordinates":[-79.611182,43.768232]},"followers":1305}
-{"name":"Plum Amazing","sector":"software","twitter_account":"plumamazing","city":"Princeville","employees":4,"position":{"type":"Point","coordinates":[-159.480262,22.226745]},"followers":260}
+{"name":"Strider SEO","sector":"consulting","twitter_account":"RKF","city":"Toronto","employees":3,"position":{"type":"Point","coordinates":[-79.554784,43.632844]},"followers":1306}
+{"name":"Strider SEO","sector":"consulting","twitter_account":"RKF","city":"Woodbridge","employees":3,"position":{"type":"Point","coordinates":[-79.611182,43.768232]},"followers":1306}
+{"name":"Plum Amazing","sector":"software","twitter_account":"plumamazing","city":"Princeville","employees":4,"position":{"type":"Point","coordinates":[-159.480262,22.226745]},"followers":261}
 {"name":"eTalkup","sector":"web","twitter_account":null,"city":"Redmond","employees":5,"position":{"type":"Point","coordinates":[-122.133621,47.67356]},"followers":"no username"}
-{"name":"Occipital","sector":"software","twitter_account":"occipital","city":"Boulder","employees":9,"position":{"type":"Point","coordinates":[-105.278109,40.018145]},"followers":37413}
+{"name":"Occipital","sector":"software","twitter_account":"occipital","city":"Boulder","employees":9,"position":{"type":"Point","coordinates":[-105.278109,40.018145]},"followers":37410}
 {"name":"Cityflats4you","sector":"web","twitter_account":null,"city":"Vienna","employees":2,"position":{"type":"Point","coordinates":[16.357786,48.182591]},"followers":"no username"}
 {"name":"NewMarCom","sector":"consulting","twitter_account":null,"city":"Amsterdam","employees":1,"position":{"type":"Point","coordinates":[4.890314,52.352201]},"followers":"no username"}
 {"name":"cosinity","sector":"web","twitter_account":null,"city":"Chandler","employees":1,"position":{"type":"Point","coordinates":[-111.8566,33.3176]},"followers":"no username"}
@@ -157,7 +157,7 @@
 {"name":"Twonq","sector":"web","twitter_account":null,"city":"San Francisco","employees":3,"position":{"type":"Point","coordinates":[-122.403223,37.794124]},"followers":"no username"}
 {"name":"Twonq","sector":"web","twitter_account":null,"city":"Delft","employees":3,"position":{"type":"Point","coordinates":[4.3848574,51.9973515]},"followers":"no username"}
 {"name":"The Impartial Observer","sector":"web","twitter_account":null,"city":"Philadelphia","employees":4,"position":{"type":"Point","coordinates":[-75.163808,39.951639]},"followers":"no username"}
-{"name":"Thomson Reuters","sector":"public_relations","twitter_account":"ThomsonReuters","city":"New York","employees":50000,"position":{"type":"Point","coordinates":[-73.9871847,40.7564318]},"followers":150642}
+{"name":"Thomson Reuters","sector":"public_relations","twitter_account":"ThomsonReuters","city":"New York","employees":50000,"position":{"type":"Point","coordinates":[-73.9871847,40.7564318]},"followers":150662}
 {"name":"Papervitamins","sector":"web","twitter_account":"papervitamins","city":"","employees":2,"position":{"type":"Point","coordinates":[-73.986951,40.756054]},"followers":191}
 {"name":"Papervitamins","sector":"web","twitter_account":"papervitamins","city":"Yokohama","employees":2,"position":{"type":"Point","coordinates":[139.6380256,35.4437078]},"followers":191}
 {"name":"eLagaan","sector":"web","twitter_account":"elagaan","city":"Bangalore","employees":20,"position":{"type":"Point","coordinates":[77.594376,12.971606]},"followers":6376}
@@ -186,18 +186,18 @@
 {"name":"Orinea","sector":"web","twitter_account":"","city":"Paris","employees":5,"position":{"type":"Point","coordinates":[2.3249952,48.8785721]},"followers":"no username"}
 {"name":"Orinea","sector":"web","twitter_account":"","city":"Casablanca, Maroc","employees":5,"position":{"type":"Point","coordinates":[-7.6332257,33.5922469]},"followers":"no username"}
 {"name":"TheWebService","sector":"web","twitter_account":null,"city":"Worcester","employees":12,"position":{"type":"Point","coordinates":[-2.26681,52.232349]},"followers":"no username"}
-{"name":"TwitterCounter","sector":"web","twitter_account":"thecounter","city":"Amsterdam","employees":1,"position":{"type":"Point","coordinates":[4.8926529,52.3644743]},"followers":106979}
+{"name":"TwitterCounter","sector":"web","twitter_account":"thecounter","city":"Amsterdam","employees":1,"position":{"type":"Point","coordinates":[4.8926529,52.3644743]},"followers":106981}
 {"name":"Digital ReveNew","sector":"consulting","twitter_account":null,"city":"Milan","employees":20,"position":{"type":"Point","coordinates":[9.2298577,45.507014]},"followers":"no username"}
 {"name":"Digital ReveNew","sector":"consulting","twitter_account":null,"city":"Rome","employees":20,"position":{"type":"Point","coordinates":[12.4941336,41.8975813]},"followers":"no username"}
-{"name":"Strider SEO","sector":"consulting","twitter_account":"RKF","city":"Toronto","employees":3,"position":{"type":"Point","coordinates":[-79.554784,43.632844]},"followers":1305}
-{"name":"Strider SEO","sector":"consulting","twitter_account":"RKF","city":"Woodbridge","employees":3,"position":{"type":"Point","coordinates":[-79.611182,43.768232]},"followers":1305}
+{"name":"Strider SEO","sector":"consulting","twitter_account":"RKF","city":"Toronto","employees":3,"position":{"type":"Point","coordinates":[-79.554784,43.632844]},"followers":1306}
+{"name":"Strider SEO","sector":"consulting","twitter_account":"RKF","city":"Woodbridge","employees":3,"position":{"type":"Point","coordinates":[-79.611182,43.768232]},"followers":1306}
 {"name":"eTalkup","sector":"web","twitter_account":null,"city":"Redmond","employees":5,"position":{"type":"Point","coordinates":[-122.133621,47.67356]},"followers":"no username"}
-{"name":"Plum Amazing","sector":"software","twitter_account":"plumamazing","city":"Princeville","employees":4,"position":{"type":"Point","coordinates":[-159.480262,22.226745]},"followers":260}
-{"name":"Occipital","sector":"software","twitter_account":"occipital","city":"Boulder","employees":9,"position":{"type":"Point","coordinates":[-105.278109,40.018145]},"followers":37413}
+{"name":"Plum Amazing","sector":"software","twitter_account":"plumamazing","city":"Princeville","employees":4,"position":{"type":"Point","coordinates":[-159.480262,22.226745]},"followers":261}
+{"name":"Occipital","sector":"software","twitter_account":"occipital","city":"Boulder","employees":9,"position":{"type":"Point","coordinates":[-105.278109,40.018145]},"followers":37410}
 {"name":"Cityflats4you","sector":"web","twitter_account":null,"city":"Vienna","employees":2,"position":{"type":"Point","coordinates":[16.357786,48.182591]},"followers":"no username"}
 {"name":"NewMarCom","sector":"consulting","twitter_account":null,"city":"Amsterdam","employees":1,"position":{"type":"Point","coordinates":[4.890314,52.352201]},"followers":"no username"}
 {"name":"cosinity","sector":"web","twitter_account":null,"city":"Chandler","employees":1,"position":{"type":"Point","coordinates":[-111.8566,33.3176]},"followers":"no username"}
-{"name":"Thomson Reuters","sector":"public_relations","twitter_account":"ThomsonReuters","city":"New York","employees":50000,"position":{"type":"Point","coordinates":[-73.9871847,40.7564318]},"followers":150642}
+{"name":"Thomson Reuters","sector":"public_relations","twitter_account":"ThomsonReuters","city":"New York","employees":50000,"position":{"type":"Point","coordinates":[-73.9871847,40.7564318]},"followers":150661}
 {"name":"IdenIve","sector":"web","twitter_account":"zazhub","city":"St Charles","employees":1,"position":{"type":"Point","coordinates":[-88.294854,41.931912]},"followers":"no username"}
 {"name":"Producteev","sector":"software","twitter_account":"producteev","city":"New York","employees":10,"position":{"type":"Point","coordinates":[-73.983656,40.775309]},"followers":4707}
 {"name":"Twonq","sector":"web","twitter_account":null,"city":"San Francisco","employees":3,"position":{"type":"Point","coordinates":[-122.403223,37.794124]},"followers":"no username"}
@@ -225,29 +225,29 @@
 {"name":"Samepoint","sector":"web","twitter_account":"samepoint","city":"New York","employees":5,"position":{"type":"Point","coordinates":[-73.999675,40.741441]},"followers":1596}
 {"name":"AUPEO!","sector":"web","twitter_account":"AUPEO","city":"Berlin","employees":25,"position":{"type":"Point","coordinates":[13.414913,52.523021]},"followers":"no username"}
 {"name":"IT Stocklist","sector":"web","twitter_account":null,"city":"Bonn","employees":12,"position":{"type":"Point","coordinates":[7.066468,50.710267]},"followers":"no username"}
-{"name":"Rethink SEO","sector":"consulting","twitter_account":"rethinkseo","city":"Toronto","employees":5,"position":{"type":"Point","coordinates":[-79.3891727,43.708615]},"followers":3092}
+{"name":"Rethink SEO","sector":"consulting","twitter_account":"rethinkseo","city":"Toronto","employees":5,"position":{"type":"Point","coordinates":[-79.3891727,43.708615]},"followers":3090}
 {"name":"TimeRime","sector":"web","twitter_account":"TimeRime","city":"Rotterdam","employees":5,"position":{"type":"Point","coordinates":[4.463134,51.906973]},"followers":370}
 {"name":"Cliqset","sector":"web","twitter_account":"cliqset","city":"Jacksonville","employees":5,"position":{"type":"Point","coordinates":[-81.657707,30.310978]},"followers":1355}
-{"name":"DealBase Corporation","sector":"web","twitter_account":"dealbase","city":"Manhattan Beach","employees":3,"position":{"type":"Point","coordinates":[-122.3277578,37.5758867]},"followers":5787}
+{"name":"DealBase Corporation","sector":"web","twitter_account":"dealbase","city":"Manhattan Beach","employees":3,"position":{"type":"Point","coordinates":[-122.3277578,37.5758867]},"followers":5786}
 {"name":"WWCTN","sector":"web","twitter_account":null,"city":"Aberdeen","employees":2,"position":{"type":"Point","coordinates":[-2.1334772,57.1254952]},"followers":"no username"}
 {"name":"Magoosh","sector":"web","twitter_account":"magoosh","city":"Berkeley","employees":13,"position":{"type":"Point","coordinates":[-122.270913,37.871087]},"followers":3419}
 {"name":"NUresume","sector":"web","twitter_account":null,"city":"Pleasanton","employees":6,"position":{"type":"Point","coordinates":[-121.803522,37.639038]},"followers":"no username"}
 {"name":"FreeTreeTravel","sector":"public_relations","twitter_account":null,"city":"Breda","employees":1,"position":{"type":"Point","coordinates":[4.781197,51.573463]},"followers":"no username"}
 {"name":"Curbsidebooty","sector":"web","twitter_account":null,"city":"","employees":2,"position":{"type":"Point","coordinates":[-73.974187,40.642591]},"followers":"no username"}
 {"name":"T-Cast Media Consulting","sector":"consulting","twitter_account":null,"city":"Redwood City","employees":1,"position":{"type":"Point","coordinates":[-122.230116,37.486368]},"followers":"no username"}
-{"name":"SocialMoms","sector":"web","twitter_account":"socialmoms","city":"Ross","employees":8,"position":{"type":"Point","coordinates":[-122.159291,37.443]},"followers":556198}
+{"name":"SocialMoms","sector":"web","twitter_account":"socialmoms","city":"Ross","employees":8,"position":{"type":"Point","coordinates":[-122.159291,37.443]},"followers":556199}
 {"name":"SocialTwist","sector":"software","twitter_account":"TellaFriend","city":"Mountain View","employees":30,"position":{"type":"Point","coordinates":[-122.014791,37.355275]},"followers":592}
 {"name":"Glued Network","sector":"consulting","twitter_account":null,"city":"St. Louis","employees":2,"position":{"type":"Point","coordinates":[-90.19841,38.627522]},"followers":"no username"}
 {"name":"DandyID","sector":"web","twitter_account":null,"city":"Providence","employees":3,"position":{"type":"Point","coordinates":[-71.4094864,41.8283241]},"followers":"no username"}
 {"name":"PeoplePad","sector":"web","twitter_account":null,"city":"Austin","employees":10,"position":{"type":"Point","coordinates":[-97.745209,30.268735]},"followers":"no username"}
 {"name":"Mobelux","sector":"software","twitter_account":"mobelux","city":"Richmond","employees":2,"position":{"type":"Point","coordinates":[-77.37613,37.573792]},"followers":839}
 {"name":"LoadStorm","sector":"web","twitter_account":"LoadStorm","city":"Albuquerque","employees":4,"position":{"type":"Point","coordinates":[-106.520846,35.131172]},"followers":4936}
-{"name":"Groupon","sector":"web","twitter_account":"groupon","city":"Chicago","employees":10000,"position":{"type":"Point","coordinates":[-87.643622,41.8965162]},"followers":150759}
+{"name":"Groupon","sector":"web","twitter_account":"groupon","city":"Chicago","employees":10000,"position":{"type":"Point","coordinates":[-87.643622,41.8965162]},"followers":150745}
 {"name":"Extrakoll","sector":"web","twitter_account":null,"city":"Solna","employees":0,"position":{"type":"Point","coordinates":[18.042057,59.378282]},"followers":"no username"}
 {"name":"BuzzStream","sector":"software","twitter_account":"buzzstream","city":"Austin","employees":8,"position":{"type":"Point","coordinates":[-97.750885,30.290699]},"followers":6345}
 {"name":"findwell","sector":"web","twitter_account":"findwell","city":"Seattle","employees":7,"position":{"type":"Point","coordinates":[-122.34229,47.627368]},"followers":1237}
 {"name":"Scrumy","sector":"public_relations","twitter_account":null,"city":"Villa Park","employees":3,"position":{"type":"Point","coordinates":[-87.980974,41.878814]},"followers":"no username"}
-{"name":"Calameo","sector":"web","twitter_account":"calameo","city":"Paris","employees":10,"position":{"type":"Point","coordinates":[2.308019,48.871174]},"followers":26692}
+{"name":"Calameo","sector":"web","twitter_account":"calameo","city":"Paris","employees":10,"position":{"type":"Point","coordinates":[2.308019,48.871174]},"followers":26688}
 {"name":"Visuamobile","sector":"software","twitter_account":"","city":"Paris","employees":35,"position":{"type":"Point","coordinates":[2.3602202,48.8691369]},"followers":"no username"}
 {"name":"fotoglif","sector":"web","twitter_account":"Fotoglif","city":"Toronto","employees":6,"position":{"type":"Point","coordinates":[-79.394325,43.647]},"followers":"no username"}
 {"name":"iKlax Media","sector":"software","twitter_account":"iklax","city":"BIDART","employees":7,"position":{"type":"Point","coordinates":[-1.5555799,43.4477272]},"followers":615}
@@ -271,7 +271,7 @@
 {"name":"UptimeArchive","sector":"web","twitter_account":null,"city":"Toronto","employees":5,"position":{"type":"Point","coordinates":[-79.44182,43.769479]},"followers":"no username"}
 {"name":"CarZen","sector":"web","twitter_account":"carzen","city":"New York","employees":5,"position":{"type":"Point","coordinates":[-73.951865,40.76945]},"followers":20}
 {"name":"Blog to it","sector":"web","twitter_account":"","city":"Abergavenny","employees":1,"position":{"type":"Point","coordinates":[-3.020908,51.824849]},"followers":"no username"}
-{"name":"Stupeflix","sector":"web","twitter_account":"stupeflix","city":"Paris","employees":15,"position":{"type":"Point","coordinates":[2.3603689,48.8785618]},"followers":7486}
+{"name":"Stupeflix","sector":"web","twitter_account":"stupeflix","city":"Paris","employees":15,"position":{"type":"Point","coordinates":[2.3603689,48.8785618]},"followers":7487}
 {"name":"GC Marshall","sector":"consulting","twitter_account":null,"city":"Chicago","employees":1,"position":{"type":"Point","coordinates":[-87.6385324,41.8790291]},"followers":"no username"}
 {"name":"CityPorters","sector":"web","twitter_account":null,"city":"San Jose","employees":2,"position":{"type":"Point","coordinates":[-121.880958,37.320006]},"followers":"no username"}
 {"name":"Rubysophic","sector":"software","twitter_account":"","city":"Moraga","employees":5,"position":{"type":"Point","coordinates":[-122.129671,37.860866]},"followers":"no username"}
@@ -283,16 +283,16 @@
 {"name":"Cookstr","sector":"web","twitter_account":"cookstr","city":"New York","employees":10,"position":{"type":"Point","coordinates":[-74.001724,40.707268]},"followers":6158}
 {"name":"IFXworks","sector":"consulting","twitter_account":null,"city":"Dulles","employees":4,"position":{"type":"Point","coordinates":[-77.423837,39.032142]},"followers":"no username"}
 {"name":"PornLikeThat","sector":"software","twitter_account":null,"city":"Quebec","employees":1,"position":{"type":"Point","coordinates":[-71.215223,46.812754]},"followers":"no username"}
-{"name":"Yipit","sector":"web","twitter_account":"yipit","city":"New York","employees":23,"position":{"type":"Point","coordinates":[-73.987764,40.744618]},"followers":3594}
+{"name":"Yipit","sector":"web","twitter_account":"yipit","city":"New York","employees":23,"position":{"type":"Point","coordinates":[-73.987764,40.744618]},"followers":3593}
 {"name":"Tivix","sector":"software","twitter_account":"tivix","city":"San Francisco","employees":18,"position":{"type":"Point","coordinates":[-122.423132,37.792303]},"followers":834}
 {"name":"Virgance","sector":"web","twitter_account":"virgance","city":"San Francisco","employees":15,"position":{"type":"Point","coordinates":[-122.394958,37.781262]},"followers":889}
 {"name":"booksRhere","sector":"web","twitter_account":"WPTwits","city":"Los Angeles","employees":1,"position":{"type":"Point","coordinates":[-118.295117,34.024817]},"followers":246}
 {"name":"NewDocs","sector":"web","twitter_account":null,"city":"Ashland","employees":3,"position":{"type":"Point","coordinates":[-122.6883052,42.183715]},"followers":"no username"}
-{"name":"148Apps","sector":"software","twitter_account":"148Apps","city":"San Francisco","employees":1,"position":{"type":"Point","coordinates":[-122.419204,37.775196]},"followers":50809}
+{"name":"148Apps","sector":"software","twitter_account":"148Apps","city":"San Francisco","employees":1,"position":{"type":"Point","coordinates":[-122.419204,37.775196]},"followers":50807}
 {"name":"ForGrabs","sector":"web","twitter_account":null,"city":"Soquel","employees":5,"position":{"type":"Point","coordinates":[-121.958687,37.0391044]},"followers":"no username"}
-{"name":"Aghreni Technologies","sector":"software","twitter_account":"aghreni","city":"Bangalore","employees":15,"position":{"type":"Point","coordinates":[77.5922642,12.9561278]},"followers":35156}
-{"name":"Aghreni Technologies","sector":"software","twitter_account":"aghreni","city":"New York","employees":15,"position":{"type":"Point","coordinates":[-73.988071,40.744549]},"followers":35156}
-{"name":"DreamBank","sector":"web","twitter_account":"dreambank","city":"Vancouver","employees":10,"position":{"type":"Point","coordinates":[-123.138565,49.263588]},"followers":1037}
+{"name":"Aghreni Technologies","sector":"software","twitter_account":"aghreni","city":"Bangalore","employees":15,"position":{"type":"Point","coordinates":[77.5922642,12.9561278]},"followers":35160}
+{"name":"Aghreni Technologies","sector":"software","twitter_account":"aghreni","city":"New York","employees":15,"position":{"type":"Point","coordinates":[-73.988071,40.744549]},"followers":35160}
+{"name":"DreamBank","sector":"web","twitter_account":"dreambank","city":"Vancouver","employees":10,"position":{"type":"Point","coordinates":[-123.138565,49.263588]},"followers":1038}
 {"name":"Allure Media","sector":"web","twitter_account":null,"city":"Darlinghurst","employees":15,"position":{"type":"Point","coordinates":[151.1936039,-33.8719926]},"followers":"no username"}
 {"name":"aladom","sector":"web","twitter_account":"aladom","city":"Rennes","employees":12,"position":{"type":"Point","coordinates":[-1.6806152,48.110933]},"followers":1321}
 {"name":"Commentag","sector":"web","twitter_account":null,"city":"Brussels","employees":3,"position":{"type":"Point","coordinates":[4.401195,50.7963208]},"followers":"no username"}
@@ -302,16 +302,16 @@
 {"name":"Aligned Global","sector":"software","twitter_account":null,"city":"Miami","employees":15,"position":{"type":"Point","coordinates":[-80.331681,25.769174]},"followers":"no username"}
 {"name":"Clowdy","sector":"web","twitter_account":"clowdycom","city":"Manchester","employees":11,"position":{"type":"Point","coordinates":[-2.2439492,53.4837067]},"followers":39}
 {"name":"iStockCV","sector":"web","twitter_account":null,"city":"Louvain-la-Neuve   ,Ottignies","employees":1,"position":{"type":"Point","coordinates":[4.6102492,50.6713314]},"followers":"no username"}
-{"name":"SocialToo","sector":"web","twitter_account":"socialtoo","city":"Salt Lake City","employees":2,"position":{"type":"Point","coordinates":[-111.967798,40.645225]},"followers":11926}
+{"name":"SocialToo","sector":"web","twitter_account":"socialtoo","city":"Salt Lake City","employees":2,"position":{"type":"Point","coordinates":[-111.967798,40.645225]},"followers":11927}
 {"name":"cago","sector":"public_relations","twitter_account":"","city":"Chicago","employees":3,"position":{"type":"Point","coordinates":[-87.624333,41.879535]},"followers":"no username"}
 {"name":"DoggieInk","sector":"web","twitter_account":null,"city":"Macon","employees":6,"position":{"type":"Point","coordinates":[-83.674786,32.850489]},"followers":"no username"}
-{"name":"Double Encore","sector":"software","twitter_account":"doubleencore","city":"Denver","employees":42,"position":{"type":"Point","coordinates":[-104.955012,39.69263]},"followers":1646}
+{"name":"Double Encore","sector":"software","twitter_account":"doubleencore","city":"Denver","employees":42,"position":{"type":"Point","coordinates":[-104.955012,39.69263]},"followers":1647}
 {"name":"Oggle Interactive","sector":"software","twitter_account":null,"city":"Vancouver","employees":4,"position":{"type":"Point","coordinates":[-123.1043395,49.2812342]},"followers":"no username"}
 {"name":"Herrmann NA","sector":"web","twitter_account":"Bildkalender","city":"Las Vegas","employees":4,"position":{"type":"Point","coordinates":[-115.242203,36.1807572]},"followers":153}
 {"name":"Mortgages and Loans Ireland","sector":"public_relations","twitter_account":null,"city":"Dublin","employees":2,"position":{"type":"Point","coordinates":[-6.2769121,53.3498195]},"followers":"no username"}
 {"name":"Carsala","sector":"web","twitter_account":"carsala","city":"Berkeley","employees":8,"position":{"type":"Point","coordinates":[-122.268354,37.870457]},"followers":766}
 {"name":"Tiiptop","sector":"web","twitter_account":null,"city":"Paris","employees":3,"position":{"type":"Point","coordinates":[2.3509871,48.8566667]},"followers":"no username"}
-{"name":"GoalsOnTrack","sector":"software","twitter_account":"GoalsOnTrack","city":"Langley","employees":2,"position":{"type":"Point","coordinates":[-122.6643702,49.1261967]},"followers":257013}
+{"name":"GoalsOnTrack","sector":"software","twitter_account":"GoalsOnTrack","city":"Langley","employees":2,"position":{"type":"Point","coordinates":[-122.6643702,49.1261967]},"followers":257012}
 {"name":"Wipee List","sector":"public_relations","twitter_account":"wipeelist","city":"Singapore","employees":2,"position":{"type":"Point","coordinates":[103.8319842,1.3183692]},"followers":37}
 {"name":"Speedchecker","sector":"web","twitter_account":null,"city":"Bristol","employees":2,"position":{"type":"Point","coordinates":[-2.6136797,51.4749263]},"followers":"no username"}
 {"name":"Blue Parabola","sector":"consulting","twitter_account":null,"city":"Toronto","employees":3,"position":{"type":"Point","coordinates":[-79.386755,43.670233]},"followers":"no username"}
@@ -320,11 +320,11 @@
 {"name":"Ethervision","sector":"consulting","twitter_account":null,"city":"Evanston","employees":5,"position":{"type":"Point","coordinates":[-87.720068,42.062669]},"followers":"no username"}
 {"name":"People Capital","sector":"web","twitter_account":null,"city":"New York","employees":10,"position":{"type":"Point","coordinates":[-73.986951,40.756054]},"followers":"no username"}
 {"name":"Fitnio","sector":"software","twitter_account":null,"city":"San Mateo","employees":3,"position":{"type":"Point","coordinates":[-122.3050823,37.5349925]},"followers":"no username"}
-{"name":"JobsTAXI","sector":"web","twitter_account":"wearejobstaxi","city":"Singapore","employees":12,"position":{"type":"Point","coordinates":[103.842646,1.279684]},"followers":3116}
+{"name":"JobsTAXI","sector":"web","twitter_account":"wearejobstaxi","city":"Singapore","employees":12,"position":{"type":"Point","coordinates":[103.842646,1.279684]},"followers":3115}
 {"name":"Planzone","sector":"software","twitter_account":null,"city":"cedex","employees":17,"position":{"type":"Point","coordinates":[2.1346593,49.5332371]},"followers":"no username"}
 {"name":"Montclair Advisors","sector":"consulting","twitter_account":"Montclairadvrs","city":"Oakland","employees":5,"position":{"type":"Point","coordinates":[-122.195779,37.82043]},"followers":"no username"}
 {"name":"Foundry Interactive","sector":"public_relations","twitter_account":null,"city":"Seattle","employees":3,"position":{"type":"Point","coordinates":[-122.344595,47.6606589]},"followers":"no username"}
-{"name":"MarketRiders","sector":"web","twitter_account":"MarketRiders","city":"Palo Alto","employees":4,"position":{"type":"Point","coordinates":[-121.9909454,37.8097439]},"followers":7503}
+{"name":"MarketRiders","sector":"web","twitter_account":"MarketRiders","city":"Palo Alto","employees":4,"position":{"type":"Point","coordinates":[-121.9909454,37.8097439]},"followers":7504}
 {"name":"Guaranteach","sector":"web","twitter_account":"","city":"Baltimore","employees":7,"position":{"type":"Point","coordinates":[-76.614442,39.30677]},"followers":"no username"}
 {"name":"TrackMyPeople","sector":"web","twitter_account":null,"city":"Leuven","employees":3,"position":{"type":"Point","coordinates":[4.700737,50.867206]},"followers":"no username"}
 {"name":"Renterval","sector":"web","twitter_account":null,"city":"Dallas","employees":2,"position":{"type":"Point","coordinates":[-96.797111,32.781078]},"followers":"no username"}
@@ -333,12 +333,12 @@
 {"name":"Grapevine Talk","sector":"software","twitter_account":"","city":"London","employees":4,"position":{"type":"Point","coordinates":[-0.1262362,51.5001524]},"followers":"no username"}
 {"name":"Woonky","sector":"public_relations","twitter_account":null,"city":"Buenos Aires","employees":10,"position":{"type":"Point","coordinates":[-58.434789,-34.5892412]},"followers":"no username"}
 {"name":"Weddingdates","sector":"web","twitter_account":"weddingdates","city":"Cork","employees":2,"position":{"type":"Point","coordinates":[-8.5878882,52.6423449]},"followers":9291}
-{"name":"Circle of Moms","sector":"web","twitter_account":"circleofmoms","city":"San Francisco","employees":9,"position":{"type":"Point","coordinates":[-122.3915063,37.7890183]},"followers":29422}
+{"name":"Circle of Moms","sector":"web","twitter_account":"circleofmoms","city":"San Francisco","employees":9,"position":{"type":"Point","coordinates":[-122.3915063,37.7890183]},"followers":29421}
 {"name":"Logicbowl","sector":"public_relations","twitter_account":null,"city":"Hyderabad","employees":10,"position":{"type":"Point","coordinates":[78.486671,17.385044]},"followers":"no username"}
 {"name":"Heralsoft","sector":"web","twitter_account":null,"city":"Gijon","employees":2,"position":{"type":"Point","coordinates":[-5.665828,43.5222205]},"followers":"no username"}
-{"name":"Unison Technologies","sector":"software","twitter_account":"unison","city":"New York","employees":30,"position":{"type":"Point","coordinates":[-73.9799007,40.7645772]},"followers":882}
+{"name":"Unison Technologies","sector":"software","twitter_account":"unison","city":"New York","employees":30,"position":{"type":"Point","coordinates":[-73.9799007,40.7645772]},"followers":885}
 {"name":"able2know","sector":"web","twitter_account":"able2know","city":"Seattle","employees":5,"position":{"type":"Point","coordinates":[-122.335109,47.5990906]},"followers":205}
-{"name":"Voyij","sector":"web","twitter_account":"voyij","city":"Cupertino","employees":4,"position":{"type":"Point","coordinates":[-122.0304277,37.3183828]},"followers":8737}
+{"name":"Voyij","sector":"web","twitter_account":"voyij","city":"Cupertino","employees":4,"position":{"type":"Point","coordinates":[-122.0304277,37.3183828]},"followers":8736}
 {"name":"Diverse Ventures","sector":"web","twitter_account":"diningverse","city":"Erie","employees":4,"position":{"type":"Point","coordinates":[-80.1261226,42.1119336]},"followers":326}
 {"name":"Webzzle","sector":"web","twitter_account":null,"city":"Palo Alto","employees":10,"position":{"type":"Point","coordinates":[-122.1417,37.4417]},"followers":"no username"}
 {"name":"Webzzle","sector":"web","twitter_account":null,"city":"Paris","employees":10,"position":{"type":"Point","coordinates":[0.4198481,43.1677247]},"followers":"no username"}
@@ -349,15 +349,15 @@
 {"name":"popdat","sector":"web","twitter_account":null,"city":"IRVINGTON","employees":10,"position":{"type":"Point","coordinates":[-74.230704,40.727533]},"followers":"no username"}
 {"name":"ZimpleMoney","sector":"software","twitter_account":"ZimpleMoney","city":"Costa Mesa","employees":8,"position":{"type":"Point","coordinates":[-117.9416077,33.6396749]},"followers":1020}
 {"name":"Professional Blog Service","sector":"web","twitter_account":"edeckers","city":"Indianapolis","employees":4,"position":{"type":"Point","coordinates":[-86.120971,39.850348]},"followers":18581}
-{"name":"Stax Networks","sector":"web","twitter_account":"CloudBees","city":"seattle","employees":8,"position":{"type":"Point","coordinates":[-122.347276,47.620973]},"followers":30851}
-{"name":"StockTwits","sector":"web","twitter_account":"stocktwits","city":"San Diego","employees":12,"position":{"type":"Point","coordinates":[-117.168697,32.7161896]},"followers":605923}
-{"name":"FutureTap","sector":"software","twitter_account":"futuretap","city":"Seefeld","employees":1,"position":{"type":"Point","coordinates":[11.1974291,48.0387806]},"followers":8492}
+{"name":"Stax Networks","sector":"web","twitter_account":"CloudBees","city":"seattle","employees":8,"position":{"type":"Point","coordinates":[-122.347276,47.620973]},"followers":30862}
+{"name":"StockTwits","sector":"web","twitter_account":"stocktwits","city":"San Diego","employees":12,"position":{"type":"Point","coordinates":[-117.168697,32.7161896]},"followers":605972}
+{"name":"FutureTap","sector":"software","twitter_account":"futuretap","city":"Seefeld","employees":1,"position":{"type":"Point","coordinates":[11.1974291,48.0387806]},"followers":8491}
 {"name":"Krabi ja Mask","sector":"software","twitter_account":"zimplit","city":"Tartu","employees":4,"position":{"type":"Point","coordinates":[26.7229199,58.3820245]},"followers":366}
 {"name":"Implied Solutions","sector":"software","twitter_account":null,"city":"Seattle","employees":1,"position":{"type":"Point","coordinates":[-122.3328401,47.6042663]},"followers":"no username"}
 {"name":"CtoJ","sector":"consulting","twitter_account":null,"city":"Cologne","employees":4,"position":{"type":"Point","coordinates":[6.9410409,50.9471389]},"followers":"no username"}
 {"name":"Userspots","sector":"consulting","twitter_account":null,"city":"Ankara","employees":4,"position":{"type":"Point","coordinates":[32.774928,39.898894]},"followers":"no username"}
 {"name":"xzapps","sector":"software","twitter_account":null,"city":"Old Bridge","employees":2,"position":{"type":"Point","coordinates":[-122.4863492,37.7181398]},"followers":"no username"}
-{"name":"CodeLean","sector":"software","twitter_account":"codelean","city":"Bagsvaerd","employees":15,"position":{"type":"Point","coordinates":[12.437582,55.7680455]},"followers":40}
+{"name":"CodeLean","sector":"software","twitter_account":"codelean","city":"Bagsvaerd","employees":15,"position":{"type":"Point","coordinates":[12.437582,55.7680455]},"followers":39}
 {"name":"MixMyGranola","sector":"web","twitter_account":"elementbars","city":"Miami","employees":3,"position":{"type":"Point","coordinates":[-80.191821,25.841678]},"followers":1737}
 {"name":"Central Reservations","sector":"web","twitter_account":"","city":"Dun Laoghaire","employees":510,"position":{"type":"Point","coordinates":[-6.2644783,53.342689]},"followers":"no username"}
 {"name":"Tsavo Agency","sector":"web","twitter_account":"Rebellion_Media","city":"Santa Monica","employees":15,"position":{"type":"Point","coordinates":[-118.4844228,34.0028373]},"followers":323}
@@ -370,7 +370,7 @@
 {"name":"facelovefinder","sector":"web","twitter_account":null,"city":"Torreon, Coahuila","employees":1,"position":{"type":"Point","coordinates":[-103.4174464,25.5230058]},"followers":"no username"}
 {"name":"IAmInTown","sector":"web","twitter_account":null,"city":"Hoboken","employees":3,"position":{"type":"Point","coordinates":[-74.0348315,40.7370784]},"followers":"no username"}
 {"name":"CureTogether","sector":"web","twitter_account":null,"city":"Mountain View","employees":3,"position":{"type":"Point","coordinates":[-122.072998,37.384297]},"followers":"no username"}
-{"name":"Demotix","sector":"web","twitter_account":"demotix","city":"London","employees":8,"position":{"type":"Point","coordinates":[-0.2065907,51.5374249]},"followers":14676}
+{"name":"Demotix","sector":"web","twitter_account":"demotix","city":"London","employees":8,"position":{"type":"Point","coordinates":[-0.2065907,51.5374249]},"followers":14675}
 {"name":"TwittBot","sector":"web","twitter_account":null,"city":"Leawood","employees":1,"position":{"type":"Point","coordinates":[-94.616021,38.93842]},"followers":"no username"}
 {"name":"eCampusCash","sector":"web","twitter_account":"","city":"Van Nuys","employees":3,"position":{"type":"Point","coordinates":[-74.294395,40.650291]},"followers":"no username"}
 {"name":"Ricochets Interactive","sector":"consulting","twitter_account":null,"city":"Le Bourget du lac","employees":3,"position":{"type":"Point","coordinates":[5.8707318,45.646721]},"followers":"no username"}
@@ -399,16 +399,16 @@
 {"name":"AdJuggler","sector":"software","twitter_account":"adjuggler","city":"Alexandria","employees":27,"position":{"type":"Point","coordinates":[-77.164776,38.804559]},"followers":"no username"}
 {"name":"SmallBusinessExpo","sector":"public_relations","twitter_account":null,"city":"Mission Viejo","employees":2,"position":{"type":"Point","coordinates":[-117.669199,33.56687]},"followers":"no username"}
 {"name":"Fund Mojo","sector":"web","twitter_account":"FundMojo","city":"San Mateo","employees":2,"position":{"type":"Point","coordinates":[-122.286752,37.560236]},"followers":12662}
-{"name":"Sixteen Ventures","sector":"consulting","twitter_account":"16v","city":"Arlington","employees":3,"position":{"type":"Point","coordinates":[-97.1955592,32.6826815]},"followers":3671}
+{"name":"Sixteen Ventures","sector":"consulting","twitter_account":"16v","city":"Arlington","employees":3,"position":{"type":"Point","coordinates":[-97.1955592,32.6826815]},"followers":3673}
 {"name":"GrouperEye","sector":"web","twitter_account":null,"city":"Washington","employees":3,"position":{"type":"Point","coordinates":[-77.0852258,38.9169394]},"followers":"no username"}
 {"name":"Dean Marshall Consultancy","sector":"consulting","twitter_account":"DMConsultancy","city":"Lancaster","employees":5,"position":{"type":"Point","coordinates":[-2.7993768,54.0648711]},"followers":180}
 {"name":"Onista","sector":"public_relations","twitter_account":null,"city":"Santa Clara","employees":3,"position":{"type":"Point","coordinates":[-121.9643745,37.3889943]},"followers":"no username"}
-{"name":"midVentures","sector":"web","twitter_account":"midventures","city":"Chicago","employees":10,"position":{"type":"Point","coordinates":[-87.625677,41.885408]},"followers":1935}
+{"name":"midVentures","sector":"web","twitter_account":"midventures","city":"Chicago","employees":10,"position":{"type":"Point","coordinates":[-87.625677,41.885408]},"followers":1934}
 {"name":"Enough Pepper","sector":"web","twitter_account":"","city":"Lisboa","employees":4,"position":{"type":"Point","coordinates":[-9.1427493,38.7509471]},"followers":"no username"}
 {"name":"iplotz","sector":"public_relations","twitter_account":"iplotz","city":"Stephens City","employees":5,"position":{"type":"Point","coordinates":[-78.218254,39.0832204]},"followers":519}
 {"name":"trekaroo","sector":"web","twitter_account":"trekaroo","city":"Pacifica","employees":4,"position":{"type":"Point","coordinates":[-122.1235054,37.4561297]},"followers":13818}
 {"name":"DooShare","sector":"web","twitter_account":"dooshare","city":"Macomb","employees":1,"position":{"type":"Point","coordinates":[-82.9178838,42.6547932]},"followers":0}
-{"name":"Leximo","sector":"web","twitter_account":"leximo","city":"Washington, D.C.","employees":2,"position":{"type":"Point","coordinates":[-77.050052,38.905242]},"followers":14317}
+{"name":"Leximo","sector":"web","twitter_account":"leximo","city":"Washington, D.C.","employees":2,"position":{"type":"Point","coordinates":[-77.050052,38.905242]},"followers":14314}
 {"name":"Ruby50","sector":"public_relations","twitter_account":"ruby50ltd","city":"Croydon","employees":6,"position":{"type":"Point","coordinates":[-0.1855258,51.5174054]},"followers":3}
 {"name":"Pistachio Consulting","sector":"consulting","twitter_account":null,"city":"Boston","employees":1,"position":{"type":"Point","coordinates":[-71.0542339,42.3552011]},"followers":"no username"}
 {"name":"KODA","sector":"web","twitter_account":"kodaus","city":"San Francisco","employees":15,"position":{"type":"Point","coordinates":[-122.40971,37.788796]},"followers":1893}
@@ -430,7 +430,7 @@
 {"name":"JobsByRef","sector":"web","twitter_account":"","city":"Chennai","employees":10,"position":{"type":"Point","coordinates":[80.2481532,13.0292742]},"followers":"no username"}
 {"name":"kinDragon","sector":"software","twitter_account":"","city":"Sarasota","employees":1,"position":{"type":"Point","coordinates":[-82.5294065,27.4081935]},"followers":"no username"}
 {"name":"SEO Komodo","sector":"consulting","twitter_account":"seokomodo","city":"Miami Beach","employees":2,"position":{"type":"Point","coordinates":[-80.1210889,25.8636626]},"followers":217}
-{"name":"Zapproved","sector":"software","twitter_account":"Zapproved","city":"Portland","employees":27,"position":{"type":"Point","coordinates":[-122.8097,45.5251]},"followers":1713}
+{"name":"Zapproved","sector":"software","twitter_account":"Zapproved","city":"Portland","employees":27,"position":{"type":"Point","coordinates":[-122.8097,45.5251]},"followers":1712}
 {"name":"FlowMingle","sector":"web","twitter_account":null,"city":"Lexington","employees":3,"position":{"type":"Point","coordinates":[-84.5091102,38.0488113]},"followers":"no username"}
 {"name":"Mobiata","sector":"software","twitter_account":"","city":"Ann Arbor","employees":14,"position":{"type":"Point","coordinates":[-83.733276,42.277416]},"followers":"no username"}
 {"name":"CanvasGrafix","sector":"web","twitter_account":null,"city":"St. Louis","employees":2,"position":{"type":"Point","coordinates":[-90.482766,38.675833]},"followers":"no username"}
@@ -441,10 +441,10 @@
 {"name":"ExpertHub","sector":"web","twitter_account":"","city":"Pleasanton","employees":35,"position":{"type":"Point","coordinates":[-121.9009329,37.6621228]},"followers":"no username"}
 {"name":"Neutron Creations","sector":"consulting","twitter_account":"NeutronUK","city":"London","employees":2,"position":{"type":"Point","coordinates":[-0.1597092,51.519772]},"followers":312}
 {"name":"studdex","sector":"web","twitter_account":"","city":"Berlin","employees":10,"position":{"type":"Point","coordinates":[7.3554365,51.4523335]},"followers":"no username"}
-{"name":"Tinychat","sector":"web","twitter_account":"tinychat","city":"Glen Cove","employees":5,"position":{"type":"Point","coordinates":[-72.5196907,42.3756409]},"followers":1023750}
-{"name":"Transifex","sector":"software","twitter_account":"transifex","city":"Menlo Park","employees":12,"position":{"type":"Point","coordinates":[-122.1842112,37.4513629]},"followers":1998}
+{"name":"Tinychat","sector":"web","twitter_account":"tinychat","city":"Glen Cove","employees":5,"position":{"type":"Point","coordinates":[-72.5196907,42.3756409]},"followers":1023732}
+{"name":"Transifex","sector":"software","twitter_account":"transifex","city":"Menlo Park","employees":12,"position":{"type":"Point","coordinates":[-122.1842112,37.4513629]},"followers":1997}
 {"name":"iCelebrate","sector":"web","twitter_account":null,"city":"Palo Alto","employees":3,"position":{"type":"Point","coordinates":[-122.1632941,37.4441726]},"followers":"no username"}
-{"name":"StarWind Software","sector":"software","twitter_account":"StarWindSAN","city":"Burlington","employees":42,"position":{"type":"Point","coordinates":[-71.204372,42.487232]},"followers":7370}
+{"name":"StarWind Software","sector":"software","twitter_account":"StarWindSAN","city":"Burlington","employees":42,"position":{"type":"Point","coordinates":[-71.204372,42.487232]},"followers":7371}
 {"name":"Hireglyphics","sector":"software","twitter_account":"Hireglyphics","city":"Toronto","employees":7,"position":{"type":"Point","coordinates":[-79.4264794,43.6366465]},"followers":"no username"}
 {"name":"Wine by the Bar","sector":"software","twitter_account":"winebythebar","city":"Cary","employees":1,"position":{"type":"Point","coordinates":[-78.792841,35.820177]},"followers":2460}
 {"name":"VEO Media Vietnam","sector":"consulting","twitter_account":"","city":"Ho Chi Minh City","employees":10,"position":{"type":"Point","coordinates":[106.6412027,10.8024304]},"followers":"no username"}
@@ -455,14 +455,14 @@
 {"name":"Startup Revival","sector":"public_relations","twitter_account":null,"city":"San Francisco","employees":1,"position":{"type":"Point","coordinates":[-122.419204,37.775196]},"followers":"no username"}
 {"name":"Coupon Tweet","sector":"web","twitter_account":"CouponTweet","city":"Chicago","employees":12,"position":{"type":"Point","coordinates":[-87.624333,41.879535]},"followers":114}
 {"name":"CitySpur","sector":"public_relations","twitter_account":null,"city":"Scottsdale","employees":17,"position":{"type":"Point","coordinates":[-111.909805,33.487056]},"followers":"no username"}
-{"name":"SeatKarma","sector":"web","twitter_account":"SeatKarma","city":"Fullerton","employees":2,"position":{"type":"Point","coordinates":[-95.452352,29.717881]},"followers":1567}
+{"name":"SeatKarma","sector":"web","twitter_account":"SeatKarma","city":"Fullerton","employees":2,"position":{"type":"Point","coordinates":[-95.452352,29.717881]},"followers":1566}
 {"name":"AppZero","sector":"software","twitter_account":"appzero_inc","city":"Andover","employees":50,"position":{"type":"Point","coordinates":[-71.1469003,42.6751888]},"followers":"no username"}
 {"name":"PebbleForge","sector":"software","twitter_account":"pebbleforge","city":"KOCHI, KERALA","employees":4,"position":{"type":"Point","coordinates":[76.2594981,9.9396253]},"followers":24}
 {"name":"TwitterCorp","sector":"web","twitter_account":null,"city":"College Place","employees":1,"position":{"type":"Point","coordinates":[-118.378229,46.0439]},"followers":"no username"}
 {"name":"howsimple","sector":"web","twitter_account":"howsimple","city":"IDYLLWILD","employees":12,"position":{"type":"Point","coordinates":[-116.7732162,33.7836802]},"followers":11}
 {"name":"Scrobl","sector":"software","twitter_account":"","city":"Kiev","employees":1,"position":{"type":"Point","coordinates":[30.503828,50.453629]},"followers":"no username"}
 {"name":"Open Web Technology","sector":"consulting","twitter_account":"openwt","city":"Geneva","employees":40,"position":{"type":"Point","coordinates":[6.1382324,46.1986292]},"followers":227}
-{"name":"Optify","sector":"software","twitter_account":"optify","city":"Seattle","employees":45,"position":{"type":"Point","coordinates":[-122.333359,47.603364]},"followers":50501}
+{"name":"Optify","sector":"software","twitter_account":"optify","city":"Seattle","employees":45,"position":{"type":"Point","coordinates":[-122.333359,47.603364]},"followers":50499}
 {"name":"Viridity Software","sector":"software","twitter_account":"APCNorthAmerica","city":"Burlington","employees":22,"position":{"type":"Point","coordinates":[-71.1986329,42.4871509]},"followers":"no username"}
 {"name":"The Vertical Action Group","sector":"consulting","twitter_account":null,"city":"San Francisco","employees":10,"position":{"type":"Point","coordinates":[-122.4000032,37.7983181]},"followers":"no username"}
 {"name":"BrandFolium Corporation","sector":"web","twitter_account":"brandfolium","city":"Sunnyvale","employees":2,"position":{"type":"Point","coordinates":[-122.036849,37.369195]},"followers":"no username"}
@@ -481,16 +481,16 @@
 {"name":"yiid","sector":"web","twitter_account":"yiid","city":"Weinheim","employees":9,"position":{"type":"Point","coordinates":[8.6759098,49.5507557]},"followers":1}
 {"name":"Cuteness Pet Community","sector":"web","twitter_account":"Cuteness_com","city":"Venice","employees":2,"position":{"type":"Point","coordinates":[-118.462421,33.989029]},"followers":"no username"}
 {"name":"Habidoo","sector":"web","twitter_account":null,"city":"Vancouver","employees":3,"position":{"type":"Point","coordinates":[-123.1333467,49.278995]},"followers":"no username"}
-{"name":"StartUpHire","sector":"web","twitter_account":"StartUpHire","city":"Vienna","employees":5,"position":{"type":"Point","coordinates":[-77.222355,38.912141]},"followers":6672}
-{"name":"Pitchero","sector":"web","twitter_account":"Pitchero","city":"Leeds","employees":5,"position":{"type":"Point","coordinates":[-1.524702,53.687153]},"followers":7360}
-{"name":"JoggingBuddy","sector":"web","twitter_account":"joggingbuddy","city":"Cambridge","employees":3,"position":{"type":"Point","coordinates":[0.1312368,52.2025441]},"followers":1902}
+{"name":"StartUpHire","sector":"web","twitter_account":"StartUpHire","city":"Vienna","employees":5,"position":{"type":"Point","coordinates":[-77.222355,38.912141]},"followers":6671}
+{"name":"Pitchero","sector":"web","twitter_account":"Pitchero","city":"Leeds","employees":5,"position":{"type":"Point","coordinates":[-1.524702,53.687153]},"followers":7359}
+{"name":"JoggingBuddy","sector":"web","twitter_account":"joggingbuddy","city":"Cambridge","employees":3,"position":{"type":"Point","coordinates":[0.1312368,52.2025441]},"followers":1900}
 {"name":"The Magnetic Think","sector":"web","twitter_account":null,"city":"Brussels","employees":2,"position":{"type":"Point","coordinates":[4.3358472,50.8076447]},"followers":"no username"}
 {"name":"Fotomina","sector":"web","twitter_account":null,"city":"Kirkkonummi","employees":4,"position":{"type":"Point","coordinates":[24.4280745,60.123399]},"followers":"no username"}
 {"name":"StickyStreet","sector":"software","twitter_account":"stickystreet","city":"Washington","employees":7,"position":{"type":"Point","coordinates":[-77.068963,38.897145]},"followers":45}
 {"name":"CMS Critic","sector":"web","twitter_account":"cmscritic","city":"Edmonton","employees":4,"position":{"type":"Point","coordinates":[-113.493698,53.540941]},"followers":15156}
-{"name":"Setster","sector":"software","twitter_account":"setster","city":"Hollywood","employees":3,"position":{"type":"Point","coordinates":[-118.325739,34.0909811]},"followers":4464}
+{"name":"Setster","sector":"software","twitter_account":"setster","city":"Hollywood","employees":3,"position":{"type":"Point","coordinates":[-118.325739,34.0909811]},"followers":4463}
 {"name":"AmberBit","sector":"software","twitter_account":null,"city":"Bia\u00c5\u201aystok","employees":5,"position":{"type":"Point","coordinates":[23.1540917,53.1371088]},"followers":"no username"}
-{"name":"GameChanger Media","sector":"software","twitter_account":"GCsports","city":"New York","employees":20,"position":{"type":"Point","coordinates":[-74.0136605,40.7078343]},"followers":16896}
+{"name":"GameChanger Media","sector":"software","twitter_account":"GCsports","city":"New York","employees":20,"position":{"type":"Point","coordinates":[-74.0136605,40.7078343]},"followers":16898}
 {"name":"ProtoShare","sector":"software","twitter_account":"ProtoShare","city":"Portland","employees":15,"position":{"type":"Point","coordinates":[-122.675255,45.519475]},"followers":1568}
 {"name":"Ashe Media Holdings","sector":"web","twitter_account":"","city":"","employees":5,"position":{"type":"Point","coordinates":[-84.338429,33.884218]},"followers":"no username"}
 {"name":"SwapBeats","sector":"software","twitter_account":"SwapBeatsCo","city":"Minneapolis","employees":12,"position":{"type":"Point","coordinates":[-93.264351,44.977482]},"followers":144}
@@ -498,7 +498,7 @@
 {"name":"RockDex","sector":"web","twitter_account":"rockdex","city":"Omaha","employees":4,"position":{"type":"Point","coordinates":[-95.942336,41.259751]},"followers":105}
 {"name":"Ranker","sector":"web","twitter_account":"Ranker","city":"Los Angeles","employees":12,"position":{"type":"Point","coordinates":[-118.325739,34.1012181]},"followers":56794}
 {"name":"Touch Ahead Software","sector":"software","twitter_account":"TouchAhead","city":"Boston","employees":10,"position":{"type":"Point","coordinates":[-71.0605985,42.3503375]},"followers":531}
-{"name":"Tongal","sector":"web","twitter_account":"tongal","city":"Santa Monica","employees":8,"position":{"type":"Point","coordinates":[-118.489748,34.007112]},"followers":5492}
+{"name":"Tongal","sector":"web","twitter_account":"tongal","city":"Santa Monica","employees":8,"position":{"type":"Point","coordinates":[-118.489748,34.007112]},"followers":5491}
 {"name":"Neovada","sector":"web","twitter_account":"","city":"Oslo","employees":16,"position":{"type":"Point","coordinates":[10.7963809,59.9137459]},"followers":"no username"}
 {"name":"ShopaService","sector":"web","twitter_account":null,"city":"NJ","employees":15,"position":{"type":"Point","coordinates":[-74.10081,40.827627]},"followers":"no username"}
 {"name":"iPlanmaker","sector":"software","twitter_account":null,"city":"Chicago","employees":6,"position":{"type":"Point","coordinates":[-87.6416957,41.8719878]},"followers":"no username"}
@@ -510,7 +510,7 @@
 {"name":"Synonym","sector":"public_relations","twitter_account":null,"city":"Chicago","employees":9,"position":{"type":"Point","coordinates":[-87.624333,41.879535]},"followers":"no username"}
 {"name":"Aigc middleast","sector":"public_relations","twitter_account":"aigcmiddleast","city":"dallas","employees":5,"position":{"type":"Point","coordinates":[-96.740444,32.920073]},"followers":"no username"}
 {"name":"crush tweet","sector":"software","twitter_account":null,"city":"dallas","employees":1,"position":{"type":"Point","coordinates":[-96.740444,32.920073]},"followers":"no username"}
-{"name":"Loop11","sector":"software","twitter_account":"Loop11","city":"South Melbourne","employees":5,"position":{"type":"Point","coordinates":[144.9563945,-37.8361]},"followers":8757}
+{"name":"Loop11","sector":"software","twitter_account":"Loop11","city":"South Melbourne","employees":5,"position":{"type":"Point","coordinates":[144.9563945,-37.8361]},"followers":8756}
 {"name":"upad","sector":"web","twitter_account":null,"city":"London","employees":8,"position":{"type":"Point","coordinates":[-0.2023958,51.5382894]},"followers":"no username"}
 {"name":"Trigora","sector":"web","twitter_account":null,"city":"Rosanna","employees":7,"position":{"type":"Point","coordinates":[145.065044,-37.742893]},"followers":"no username"}
 {"name":"Smallaa","sector":"web","twitter_account":null,"city":"San Jose","employees":5,"position":{"type":"Point","coordinates":[-121.928393,37.39458]},"followers":"no username"}
@@ -530,13 +530,13 @@
 {"name":"Compel Interaction","sector":"consulting","twitter_account":"compel","city":"Traverse City","employees":10,"position":{"type":"Point","coordinates":[-85.6378062,44.7871116]},"followers":33}
 {"name":"Knag Enterprises","sector":"software","twitter_account":"justinknag","city":"Boulder","employees":1,"position":{"type":"Point","coordinates":[-105.270527,40.013336]},"followers":7}
 {"name":"Tweenjo","sector":"web","twitter_account":null,"city":"London","employees":2,"position":{"type":"Point","coordinates":[-0.1459893,51.5137747]},"followers":"no username"}
-{"name":"psychiatryRounds","sector":"web","twitter_account":"psychiatry_md","city":"Mountain View","employees":10,"position":{"type":"Point","coordinates":[-122.073003,37.400465]},"followers":3151}
-{"name":"Online Outbox","sector":"public_relations","twitter_account":"onlineoutbox","city":"ATLANTA","employees":10,"position":{"type":"Point","coordinates":[-84.3378955,33.9349004]},"followers":5407}
+{"name":"psychiatryRounds","sector":"web","twitter_account":"psychiatry_md","city":"Mountain View","employees":10,"position":{"type":"Point","coordinates":[-122.073003,37.400465]},"followers":3154}
+{"name":"Online Outbox","sector":"public_relations","twitter_account":"onlineoutbox","city":"ATLANTA","employees":10,"position":{"type":"Point","coordinates":[-84.3378955,33.9349004]},"followers":5408}
 {"name":"Wijng","sector":"web","twitter_account":null,"city":"Graz","employees":3,"position":{"type":"Point","coordinates":[15.454803,47.0743531]},"followers":"no username"}
-{"name":"Lunch","sector":"web","twitter_account":"lunch_com","city":"","employees":12,"position":{"type":"Point","coordinates":[-118.3864712,33.903022]},"followers":2074}
+{"name":"Lunch","sector":"web","twitter_account":"lunch_com","city":"","employees":12,"position":{"type":"Point","coordinates":[-118.3864712,33.903022]},"followers":2073}
 {"name":"Space Spare","sector":"web","twitter_account":"","city":"London","employees":2,"position":{"type":"Point","coordinates":[-0.1365725,51.5603951]},"followers":"no username"}
 {"name":"Webteilchen","sector":"web","twitter_account":"Webteilchen","city":"Berlin","employees":2,"position":{"type":"Point","coordinates":[13.6281888,52.5296736]},"followers":240}
-{"name":"TrialX","sector":"web","twitter_account":"trialx","city":"New York","employees":5,"position":{"type":"Point","coordinates":[-73.9893359,40.7277434]},"followers":1546}
+{"name":"TrialX","sector":"web","twitter_account":"trialx","city":"New York","employees":5,"position":{"type":"Point","coordinates":[-73.9893359,40.7277434]},"followers":1545}
 {"name":"quoobs","sector":"web","twitter_account":null,"city":"Berlin","employees":3,"position":{"type":"Point","coordinates":[13.4663753,52.5189904]},"followers":"no username"}
 {"name":"TikiWade","sector":"web","twitter_account":null,"city":"Plymouth","employees":2,"position":{"type":"Point","coordinates":[-93.442929,45.040276]},"followers":"no username"}
 {"name":"1calendar","sector":"software","twitter_account":"1calendar","city":"Copenhagen","employees":8,"position":{"type":"Point","coordinates":[12.5751278,55.6770321]},"followers":49}
@@ -553,7 +553,7 @@
 {"name":"PaperSports","sector":"web","twitter_account":null,"city":"Tulsa","employees":2,"position":{"type":"Point","coordinates":[-95.975663,36.133354]},"followers":"no username"}
 {"name":"Paydro","sector":"software","twitter_account":"arjenschat","city":"Amsterdam","employees":0,"position":{"type":"Point","coordinates":[4.8926966,52.3646031]},"followers":5586}
 {"name":"Servo Software","sector":"software","twitter_account":"","city":"San Mateo","employees":40,"position":{"type":"Point","coordinates":[-122.292146,37.552262]},"followers":"no username"}
-{"name":"Worky","sector":"web","twitter_account":"workyworks","city":"Dublin","employees":16,"position":{"type":"Point","coordinates":[-6.2674937,53.344104]},"followers":632}
+{"name":"Worky","sector":"web","twitter_account":"workyworks","city":"Dublin","employees":16,"position":{"type":"Point","coordinates":[-6.2674937,53.344104]},"followers":633}
 {"name":"Varsity Outreach","sector":"web","twitter_account":"VarsityOutreach","city":"Washington","employees":4,"position":{"type":"Point","coordinates":[-77.036972,38.93097]},"followers":465}
 {"name":"OCTALINE","sector":"web","twitter_account":"","city":"Levallois-Perret","employees":2,"position":{"type":"Point","coordinates":[2.2863338,48.8964115]},"followers":"no username"}
 {"name":"Book'd","sector":"software","twitter_account":"bookd","city":"Columbia","employees":1,"position":{"type":"Point","coordinates":[-92.3227556,38.9569894]},"followers":488}
@@ -562,8 +562,8 @@
 {"name":"DP7 Digital","sector":"software","twitter_account":"","city":"Sao Paulo","employees":6,"position":{"type":"Point","coordinates":[-46.6773686,-23.5815208]},"followers":"no username"}
 {"name":"DP7 Digital","sector":"software","twitter_account":"","city":"Florianopolis","employees":6,"position":{"type":"Point","coordinates":[-48.5483418,-27.5995476]},"followers":"no username"}
 {"name":"Wetoku","sector":"public_relations","twitter_account":"wetoku","city":"Seoul","employees":4,"position":{"type":"Point","coordinates":[127.0373502,37.5009759]},"followers":432}
-{"name":"JustProto","sector":"software","twitter_account":"uxpin","city":"Gdynia","employees":11,"position":{"type":"Point","coordinates":[18.5416342,54.520135]},"followers":33891}
-{"name":"NecesCity","sector":"web","twitter_account":"NecesCity","city":"Hong Kong","employees":4,"position":{"type":"Point","coordinates":[114.150564,22.334148]},"followers":2499}
+{"name":"JustProto","sector":"software","twitter_account":"uxpin","city":"Gdynia","employees":11,"position":{"type":"Point","coordinates":[18.5416342,54.520135]},"followers":33902}
+{"name":"NecesCity","sector":"web","twitter_account":"NecesCity","city":"Hong Kong","employees":4,"position":{"type":"Point","coordinates":[114.150564,22.334148]},"followers":2500}
 {"name":"Fan","sector":"consulting","twitter_account":"","city":"Mar del Plata","employees":10,"position":{"type":"Point","coordinates":[-57.5538238,-37.9924155]},"followers":"no username"}
 {"name":"ToolzDO","sector":"web","twitter_account":"toolzdo","city":"Coconut Creek","employees":1,"position":{"type":"Point","coordinates":[-80.186473,26.280346]},"followers":999}
 {"name":"ReSolutions LLC","sector":"consulting","twitter_account":"shawngoesgreen","city":"Birmingham","employees":2,"position":{"type":"Point","coordinates":[-86.7935892,33.476946]},"followers":"no username"}
@@ -573,7 +573,7 @@
 {"name":"Centic","sector":"software","twitter_account":"","city":"Odense S","employees":3,"position":{"type":"Point","coordinates":[10.3947844,55.3581088]},"followers":"no username"}
 {"name":"expertnews","sector":"web","twitter_account":"kwkrass","city":"Hamburg","employees":1,"position":{"type":"Point","coordinates":[9.9819779,53.5688101]},"followers":302}
 {"name":"Flaggpole","sector":"web","twitter_account":"flaggpole","city":"Seattle","employees":4,"position":{"type":"Point","coordinates":[-122.347276,47.620973]},"followers":55}
-{"name":"Pixlr","sector":"software","twitter_account":"pixlr","city":"Stockholm","employees":2,"position":{"type":"Point","coordinates":[18.0644881,59.3327881]},"followers":10662}
+{"name":"Pixlr","sector":"software","twitter_account":"pixlr","city":"Stockholm","employees":2,"position":{"type":"Point","coordinates":[18.0644881,59.3327881]},"followers":10663}
 {"name":"ReferenceBot","sector":"web","twitter_account":"referencebotcom","city":"West Palm Beach","employees":1,"position":{"type":"Point","coordinates":[-80.0520862,26.706239]},"followers":12}
 {"name":"The Resumator","sector":"software","twitter_account":"TheResumator","city":"Pittsburgh","employees":40,"position":{"type":"Point","coordinates":[-80.001933,40.438423]},"followers":24}
 {"name":"Sponty","sector":"web","twitter_account":"thesponty","city":"Cambridge","employees":10,"position":{"type":"Point","coordinates":[-71.0814466,42.3672873]},"followers":359}
@@ -581,10 +581,10 @@
 {"name":"AppUseful","sector":"web","twitter_account":"usefulwebapps","city":"Austin","employees":7,"position":{"type":"Point","coordinates":[-97.7389543,30.2961708]},"followers":"no username"}
 {"name":"ServiceSphere","sector":"consulting","twitter_account":"servicesphere","city":"Denver","employees":15,"position":{"type":"Point","coordinates":[-104.934232,39.755014]},"followers":477}
 {"name":"IndiaOnAPage","sector":"software","twitter_account":"gopalagarwal11","city":"Bangalore","employees":8,"position":{"type":"Point","coordinates":[77.6101165,12.9164537]},"followers":19}
-{"name":"Nalts Consulting","sector":"consulting","twitter_account":"nalts","city":"Doylestown","employees":1,"position":{"type":"Point","coordinates":[-75.1135236,40.3113504]},"followers":12609}
+{"name":"Nalts Consulting","sector":"consulting","twitter_account":"nalts","city":"Doylestown","employees":1,"position":{"type":"Point","coordinates":[-75.1135236,40.3113504]},"followers":12607}
 {"name":"ArtNeighbor","sector":"web","twitter_account":"artneighbor","city":"New York City","employees":5,"position":{"type":"Point","coordinates":[-73.9918181,40.7489381]},"followers":1466}
 {"name":"Primediart","sector":"software","twitter_account":"primediart","city":"Kolkata","employees":10,"position":{"type":"Point","coordinates":[88.40286,22.5985389]},"followers":452}
-{"name":"sipgate","sector":"public_relations","twitter_account":"sipgate","city":"San Francisco","employees":4,"position":{"type":"Point","coordinates":[-122.4020588,37.7919639]},"followers":6355}
+{"name":"sipgate","sector":"public_relations","twitter_account":"sipgate","city":"San Francisco","employees":4,"position":{"type":"Point","coordinates":[-122.4020588,37.7919639]},"followers":6354}
 {"name":"Movip","sector":"web","twitter_account":"moviptv","city":"Lisbon","employees":2,"position":{"type":"Point","coordinates":[-9.135517,38.7071631]},"followers":"no username"}
 {"name":"OnePage","sector":"web","twitter_account":"myOnePage","city":"Birmingham","employees":2,"position":{"type":"Point","coordinates":[-1.5613493,53.3706564]},"followers":974}
 {"name":"Exploroo Pty Ltd","sector":"web","twitter_account":"exploroo","city":"Gold Coast, QLD","employees":11,"position":{"type":"Point","coordinates":[153.4375,-28.048422]},"followers":3831}
@@ -593,17 +593,17 @@
 {"name":"YesOrNow","sector":"web","twitter_account":"yesornow","city":"Paris","employees":3,"position":{"type":"Point","coordinates":[2.336453,48.882769]},"followers":566}
 {"name":"HURRYCAM","sector":"web","twitter_account":"","city":"Paris","employees":5,"position":{"type":"Point","coordinates":[2.3509871,48.8566667]},"followers":"no username"}
 {"name":"Zookel","sector":"web","twitter_account":"paulduggan","city":"London","employees":10,"position":{"type":"Point","coordinates":[-0.0994596,51.5203268]},"followers":460}
-{"name":"Nirvana","sector":"software","twitter_account":"nirvanahq","city":"Montreal","employees":3,"position":{"type":"Point","coordinates":[-73.5673333,45.5058782]},"followers":6508}
+{"name":"Nirvana","sector":"software","twitter_account":"nirvanahq","city":"Montreal","employees":3,"position":{"type":"Point","coordinates":[-73.5673333,45.5058782]},"followers":6505}
 {"name":"Finest Expert","sector":"web","twitter_account":"finestexpert","city":"San Francisco","employees":3,"position":{"type":"Point","coordinates":[-122.419204,37.775196]},"followers":469}
-{"name":"Bar Exchange","sector":"web","twitter_account":"barexchange","city":"London","employees":10,"position":{"type":"Point","coordinates":[-0.1525048,51.5395914]},"followers":4955}
-{"name":"Buddingup","sector":"web","twitter_account":"Buddingup","city":"Waterloo","employees":2,"position":{"type":"Point","coordinates":[-80.534491,43.477552]},"followers":2330}
+{"name":"Bar Exchange","sector":"web","twitter_account":"barexchange","city":"London","employees":10,"position":{"type":"Point","coordinates":[-0.1525048,51.5395914]},"followers":4956}
+{"name":"Buddingup","sector":"web","twitter_account":"Buddingup","city":"Waterloo","employees":2,"position":{"type":"Point","coordinates":[-80.534491,43.477552]},"followers":2331}
 {"name":"One Simple Move","sector":"web","twitter_account":"onesimplemove","city":"San Francisco","employees":4,"position":{"type":"Point","coordinates":[-122.402922,37.800482]},"followers":40}
 {"name":"ZIPQODE","sector":"web","twitter_account":"zipqode","city":"Philadelphia","employees":1,"position":{"type":"Point","coordinates":[-75.163808,39.951639]},"followers":1}
-{"name":"Eventric","sector":"software","twitter_account":"eventric","city":"Chicago","employees":10,"position":{"type":"Point","coordinates":[-87.6664837,41.9174637]},"followers":1464}
+{"name":"Eventric","sector":"software","twitter_account":"eventric","city":"Chicago","employees":10,"position":{"type":"Point","coordinates":[-87.6664837,41.9174637]},"followers":1463}
 {"name":"Strategist News","sector":"web","twitter_account":"strategistnews","city":"New York","employees":4,"position":{"type":"Point","coordinates":[-73.9918181,40.7489381]},"followers":49}
 {"name":"Disrupto","sector":"web","twitter_account":"disrupto","city":"New York","employees":7,"position":{"type":"Point","coordinates":[-73.9565551,40.714279]},"followers":90}
 {"name":"HomePros","sector":"software","twitter_account":"HomePros","city":"Austin","employees":15,"position":{"type":"Point","coordinates":[-97.739316,30.43385]},"followers":4276}
-{"name":"Ykone","sector":"web","twitter_account":"ykone","city":"Paris","employees":10,"position":{"type":"Point","coordinates":[2.3509871,48.8566667]},"followers":7058}
+{"name":"Ykone","sector":"web","twitter_account":"ykone","city":"Paris","employees":10,"position":{"type":"Point","coordinates":[2.3509871,48.8566667]},"followers":7057}
 {"name":"Novelty Systems","sector":"consulting","twitter_account":"noveltysystems","city":"Gainesville","employees":0,"position":{"type":"Point","coordinates":[-82.4102628,29.5950852]},"followers":71}
 {"name":"Novelty Systems","sector":"consulting","twitter_account":"noveltysystems","city":"Naples","employees":0,"position":{"type":"Point","coordinates":[-81.5555,26.3926]},"followers":71}
 {"name":"ResuWe","sector":"software","twitter_account":"resuwe","city":"Laguna Beach","employees":5,"position":{"type":"Point","coordinates":[-117.7769669,33.5341548]},"followers":1173}
@@ -619,15 +619,15 @@
 {"name":"DSwiss","sector":"web","twitter_account":"dswiss","city":"Z\u00c3\u00bcrich","employees":10,"position":{"type":"Point","coordinates":[8.5142125,47.376362]},"followers":207}
 {"name":"Lipperhey","sector":"software","twitter_account":"lipperheytweets","city":"Amsterdam","employees":6,"position":{"type":"Point","coordinates":[4.9345824,52.3655578]},"followers":661}
 {"name":"Waveative","sector":"consulting","twitter_account":"","city":"Houston","employees":3,"position":{"type":"Point","coordinates":[-95.514493,29.7726138]},"followers":"no username"}
-{"name":"CrowdGather","sector":"web","twitter_account":"crowdgather","city":"Woodland Hills","employees":9,"position":{"type":"Point","coordinates":[-118.575293,34.168955]},"followers":24831}
+{"name":"CrowdGather","sector":"web","twitter_account":"crowdgather","city":"Woodland Hills","employees":9,"position":{"type":"Point","coordinates":[-118.575293,34.168955]},"followers":24830}
 {"name":"Amrita Financial","sector":"web","twitter_account":"","city":"Oceanside","employees":8,"position":{"type":"Point","coordinates":[-117.3321424,33.1832317]},"followers":"no username"}
 {"name":"Vortimer","sector":"web","twitter_account":"resumeanalysis","city":"Washington","employees":2,"position":{"type":"Point","coordinates":[-77.05681,38.905504]},"followers":316}
 {"name":"ubigrate","sector":"software","twitter_account":"ubigrate","city":"Dresden","employees":12,"position":{"type":"Point","coordinates":[13.7759644,51.0343624]},"followers":582}
 {"name":"140Ware","sector":"web","twitter_account":"140WARE","city":"Mayaguez","employees":3,"position":{"type":"Point","coordinates":[-67.1517568,18.2066344]},"followers":0}
-{"name":"Asyus","sector":"web","twitter_account":"AsyusInc","city":"Monte Sereno","employees":7,"position":{"type":"Point","coordinates":[-121.986779,37.241813]},"followers":1266}
+{"name":"Asyus","sector":"web","twitter_account":"AsyusInc","city":"Monte Sereno","employees":7,"position":{"type":"Point","coordinates":[-121.986779,37.241813]},"followers":1267}
 {"name":"ChallengePost","sector":"web","twitter_account":"challengepost","city":"New York","employees":17,"position":{"type":"Point","coordinates":[-74.00717,40.7408042]},"followers":41}
 {"name":"Kear IT","sector":"consulting","twitter_account":"","city":"Baltimore","employees":15,"position":{"type":"Point","coordinates":[-76.684265,39.2569898]},"followers":"no username"}
-{"name":"Outspoken Media","sector":"consulting","twitter_account":"outspokenmedia","city":"Troy","employees":8,"position":{"type":"Point","coordinates":[-82.540512,28.490886]},"followers":13497}
+{"name":"Outspoken Media","sector":"consulting","twitter_account":"outspokenmedia","city":"Troy","employees":8,"position":{"type":"Point","coordinates":[-82.540512,28.490886]},"followers":13499}
 {"name":"flexjex","sector":"public_relations","twitter_account":"flexjex","city":"Cambridge","employees":2,"position":{"type":"Point","coordinates":[0.1312368,52.2025441]},"followers":2182}
 {"name":"Teambox","sector":"web","twitter_account":"teambox_app","city":"Barcelona","employees":35,"position":{"type":"Point","coordinates":[2.1920231,41.4063346]},"followers":"no username"}
 {"name":"SalesInsight","sector":"consulting","twitter_account":"","city":"Ghaziabad","employees":11,"position":{"type":"Point","coordinates":[77.0737149,28.6382433]},"followers":"no username"}
@@ -640,7 +640,7 @@
 {"name":"ftopia","sector":"software","twitter_account":"ftopia","city":"Paris","employees":7,"position":{"type":"Point","coordinates":[-6.2493777,53.3328144]},"followers":98}
 {"name":"HOTForms123","sector":"web","twitter_account":"","city":"Beverly Hills","employees":2,"position":{"type":"Point","coordinates":[-118.405325,34.0698912]},"followers":"no username"}
 {"name":"Continuity Engine","sector":"software","twitter_account":"ContinuityEng","city":"New Haven","employees":11,"position":{"type":"Point","coordinates":[-73.2435522,41.3279176]},"followers":35}
-{"name":"Conversition","sector":"web","twitter_account":"conversition","city":"New York City","employees":10,"position":{"type":"Point","coordinates":[-73.986951,40.756054]},"followers":3323}
+{"name":"Conversition","sector":"web","twitter_account":"conversition","city":"New York City","employees":10,"position":{"type":"Point","coordinates":[-73.986951,40.756054]},"followers":3324}
 {"name":"MyChances","sector":"consulting","twitter_account":"mychances","city":"Reno","employees":2,"position":{"type":"Point","coordinates":[-119.8120795,39.394564]},"followers":72}
 {"name":"MyChances","sector":"consulting","twitter_account":"mychances","city":"Menlo Park","employees":2,"position":{"type":"Point","coordinates":[-122.1802812,37.4484914]},"followers":72}
 {"name":"SEO Sumo","sector":"public_relations","twitter_account":"seosumo","city":"Miami","employees":5,"position":{"type":"Point","coordinates":[-80.306331,25.723408]},"followers":363}
